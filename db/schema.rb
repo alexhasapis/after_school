@@ -11,28 +11,42 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20150330223122) do
 
   create_table "performances", force: :cascade do |t|
-    t.integer  "school",                           limit: 4
     t.string   "dbn",                              limit: 255
-    t.decimal  "on_track_2013",                                precision: 3,  scale: 2
-    t.decimal  "graduation_rate_2013",                         precision: 3,  scale: 2
-    t.decimal  "college_rate_2013",                            precision: 3,  scale: 2
-    t.decimal  "student_staisfaction_2013",                    precision: 2,  scale: 1
-    t.decimal  "on_track_2012",                                precision: 3,  scale: 2
-    t.decimal  "graduation_rate_2012",                         precision: 3,  scale: 2
-    t.decimal  "college_rate_2012",                            precision: 3,  scale: 2
-    t.decimal  "student_satisfaction_2012",                    precision: 10
-    t.decimal  "on_track_sim_schools",                         precision: 2,  scale: 1
-    t.decimal  "grad_rate_sim_schools",                        precision: 3,  scale: 2
-    t.decimal  "college_rate_sim_schools",                     precision: 3,  scale: 2
-    t.decimal  "student_satisfaction_sim_schools",             precision: 2,  scale: 1
-    t.string   "quality_rating",                   limit: 255
-    t.datetime "created_at",                                                            null: false
-    t.datetime "updated_at",                                                            null: false
+    t.decimal  "on_track_2013",                                precision: 3, scale: 2
+    t.decimal  "grad_rate_2013",                               precision: 3, scale: 2
+    t.decimal  "college_rate_2013",                            precision: 3, scale: 2
+    t.decimal  "student_satisfaction",                         precision: 2, scale: 1
+    t.decimal  "on_track_2012",                                precision: 3, scale: 2
+    t.decimal  "grad_rate_2012",                               precision: 3, scale: 2
+    t.decimal  "college_rate_2012",                            precision: 3, scale: 2
+    t.decimal  "student_satisfation_2012",                     precision: 3, scale: 2
+    t.decimal  "on_track_sim_schools",                         precision: 3, scale: 2
+    t.decimal  "grad_rate_sim_schools",                        precision: 3, scale: 2
+    t.decimal  "college_rate_sim_schools",                     precision: 3, scale: 2
+    t.decimal  "student_satisfaction_sim_schools",             precision: 2, scale: 1
+    t.string   "quality_review",                   limit: 255
+    t.datetime "created_at",                                                           null: false
+    t.datetime "updated_at",                                                           null: false
   end
 
-  add_index "performances", ["school"], name: "index_performances_on_school", using: :btree
+  create_table "schools", force: :cascade do |t|
+    t.string   "dbn",             limit: 255
+    t.string   "name",            limit: 255
+    t.string   "boro",            limit: 255
+    t.string   "building",        limit: 255
+    t.string   "starting_grade",  limit: 255
+    t.string   "finishing_grade", limit: 255
+    t.string   "address",         limit: 255
+    t.string   "website",         limit: 255
+    t.integer  "total_students",  limit: 4
+    t.string   "school_type",     limit: 255
+    t.decimal  "latitude",                    precision: 10, scale: 8
+    t.decimal  "longitude",                   precision: 11, scale: 8
+    t.datetime "created_at",                                           null: false
+    t.datetime "updated_at",                                           null: false
+  end
 
 end

@@ -36,10 +36,12 @@ puts Benchmark.measure{
   OPTIONALLY ENCLOSED BY '"'
   LINES TERMINATED BY '\n'
   IGNORE 1 LINES
-  (dbn,name, boro, building,@x,@x,starting_grade, finishing_grade,@x,@x,@x,@x,@address,@city,@state,@zip,website,@total_students,@x,school_type,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@latitude,@longitude)
+  (dbn,name, boro, building,@x,@x,starting_grade, finishing_grade,@x,@x,@x,@x,@address,@city,@state,@zip,website,@total_students,@x,school_type,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@location)
   SET
     total_students = REPLACE(@total_students,'N/A', 1),
-    address = concat(@address, ', ', @city, ', ', @state, ' ', @zip)
+    address = concat(@address, ', ', @city, ', ', @state, ' ', @zip),
+    latitude = SUBSTRING_INDEX(REPLACE(SUBSTRING_INDEX(@location, "(", -1),")",""), ',', 1),
+    longitude =   SUBSTRING_INDEX(REPLACE(SUBSTRING_INDEX(@location, "(", -1),")",""), ',', -1)
   SQL
 }
 
@@ -52,9 +54,20 @@ puts Benchmark.measure{
   OPTIONALLY ENCLOSED BY '"'
   LINES TERMINATED BY '\n'
   IGNORE 1 LINES
-  (dbn,name, boro, building,@x,@x,starting_grade, finishing_grade,@x,@x,@x,@x,@address,@city,@state,@zip,website,@total_students,@x,school_type,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@x,@latitude,@longitude)
+  (dbn, @on_track_2013, @grad_rate_2013, @college_rate_2013, @student_satisfaction, @on_track_2012, @grad_rate_2012,  @college_rate_2012, @student_satisfation_2012, @on_track_sim_schools, @grad_rate_sim_schools, @college_rate_sim_schools, @student_satisfaction_sim_schools, quality_review, @x)
   SET
-    total_students = REPLACE(@total_students,'N/A', 1),
-    address = concat(@address, ', ', @city, ', ', @state, ' ', @zip)
+    on_track_2013 = IF(@on_track_2013 = "N/A", NULL, REPLACE(@on_track_2013, "%", '') / 100),
+    grad_rate_2013 = IF(@grad_rate_2013 = "N/A", NULL, REPLACE(@grad_rate_2013, "%", '') / 100),
+    college_rate_2013 = IF(@college_rate_2013 = "N/A", NULL, REPLACE(@college_rate_2013, "%", '') / 100),
+    student_satisfaction = IF(@student_satisfaction = "N/A", NULL, REPLACE(@student_satisfaction, "%", '')),
+    on_track_2012 = IF(@on_track_2012 = "N/A", NULL, REPLACE(@on_track_2012, "%", '') / 100),
+    grad_rate_2012 = IF(@grad_rate_2012 = "N/A", NULL, REPLACE(@grad_rate_2012, "%", '') / 100),
+    college_rate_2012 = IF(@college_rate_2012 = "N/A", NULL, REPLACE(@college_rate_2012, "%", '') / 100),
+    student_satisfation_2012 = IF(@student_satisfation_2012 = "N/A", NULL, REPLACE(@student_satisfation_2012, "%", '')),
+    on_track_sim_schools = IF(@on_track_sim_schools = "N/A", NULL, REPLACE(@on_track_sim_schools, "%", '') / 100),
+    grad_rate_sim_schools = IF(@grad_rate_sim_schools = "N/A", NULL, REPLACE(@grad_rate_sim_schools, "%", '') / 100),
+    college_rate_sim_schools = IF(@college_rate_sim_schools = "N/A", NULL, REPLACE(@college_rate_sim_schools, "%", '') / 100),
+    student_satisfaction_sim_schools = IF(@student_satisfaction_sim_schools = "N/A", NULL, REPLACE(@student_satisfaction_sim_schools, "%", ''))
   SQL
 }
+

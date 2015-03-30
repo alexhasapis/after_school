@@ -1,0 +1,73 @@
+<%= form_for(@performance) do |f| %>
+  <% if @performance.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@performance.errors.count, "error") %> prohibited this performance from being saved:</h2>
+
+      <ul>
+      <% @performance.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :dbn %><br>
+    <%= f.text_field :dbn %>
+  </div>
+  <div class="field">
+    <%= f.label :on_track_2013 %><br>
+    <%= f.text_field :on_track_2013 %>
+  </div>
+  <div class="field">
+    <%= f.label :grad_rate_2013 %><br>
+    <%= f.text_field :grad_rate_2013 %>
+  </div>
+  <div class="field">
+    <%= f.label :college_rate_2013 %><br>
+    <%= f.text_field :college_rate_2013 %>
+  </div>
+  <div class="field">
+    <%= f.label :student_satisfaction %><br>
+    <%= f.text_field :student_satisfaction %>
+  </div>
+  <div class="field">
+    <%= f.label :on_track_2012 %><br>
+    <%= f.text_field :on_track_2012 %>
+  </div>
+  <div class="field">
+    <%= f.label :grad_rate_2012 %><br>
+    <%= f.text_field :grad_rate_2012 %>
+  </div>
+  <div class="field">
+    <%= f.label :college_rate_2012 %><br>
+    <%= f.text_field :college_rate_2012 %>
+  </div>
+  <div class="field">
+    <%= f.label :student_satisfation_2012 %><br>
+    <%= f.text_field :student_satisfation_2012 %>
+  </div>
+  <div class="field">
+    <%= f.label :on_track_sim_schools %><br>
+    <%= f.text_field :on_track_sim_schools %>
+  </div>
+  <div class="field">
+    <%= f.label :grad_rate_sim_schools %><br>
+    <%= f.text_field :grad_rate_sim_schools %>
+  </div>
+  <div class="field">
+    <%= f.label :college_rate_sim_schools %><br>
+    <%= f.text_field :college_rate_sim_schools %>
+  </div>
+  <div class="field">
+    <%= f.label :student_satisfaction_sim_schools %><br>
+    <%= f.text_field :student_satisfaction_sim_schools %>
+  </div>
+  <div class="field">
+    <%= f.label :quailty_review %><br>
+    <%= f.text_field :quailty_review %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
