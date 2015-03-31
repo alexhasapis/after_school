@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :safety_reports
+
   resources :after_school_programs
 
   resources :performances

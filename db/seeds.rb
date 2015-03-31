@@ -71,3 +71,27 @@ puts Benchmark.measure{
     longitude =  IF(@loc = "", NULL, SUBSTRING_INDEX(REPLACE(SUBSTRING_INDEX(@loc, "(", -1),")",""), ',', -1))
   SQL
 }
+
+puts Benchmark.measure{
+  sql.execute "TRUNCATE safety_reports"
+  sql.execute <<-SQL
+  LOAD DATA INFILE "#{Rails.root.join('db','seeds','School_Safety_Report.csv')}"
+  INTO TABLE safety_reports
+  FIELDS TERMINATED BY ','
+  OPTIONALLY ENCLOSED BY '"'
+  LINES TERMINATED BY '\n'
+  IGNORE 1 LINES
+  (@id, building, dbn, @name, @code, @add, @boro, @geo, @reg, @bname, @schools, @inbldg, @major_crimes, @other_crimes, @incidents, @property_crimes, @violent_crimes, group_size, @range, @avg_major_crimes, @avg_other_crimes, @avg_incidents, @avg_property_crimes, @avg_violent_crimes)
+  SET
+    major_crimes = REPLACE(@major_crimes, "N/A", NULL),
+    other_crimes = REPLACE(@other_crimes, "N/A", NULL),
+    incidents = REPLACE(@incidents, "N/A", NULL),
+    property_crimes = REPLACE(@property_crimes, "N/A", NULL),
+    violent_crimes = REPLACE(@violent_crimes, "N/A", NULL),
+    avg_major_crimes = REPLACE(@avg_major_crimes, "N/A", NULL),
+    avg_other_crimes = REPLACE(@avg_other_crimes, "N/A", NULL),
+    avg_incidents = REPLACE(@avg_incidents, "N/A", NULL),
+    avg_property_crimes = REPLACE(@avg_property_crimes, "N/A", NULL),
+    avg_violent_crimes = REPLACE(@avg_violent_crimes, "N/A", NULL)
+  SQL
+}

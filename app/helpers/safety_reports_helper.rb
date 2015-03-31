@@ -1,0 +1,2 @@
+module SafetyReportsHelper
+end

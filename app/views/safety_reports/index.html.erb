@@ -1,0 +1,51 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Safety Reports</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Building</th>
+      <th>Dbn</th>
+      <th>Major crimes</th>
+      <th>Other crimes</th>
+      <th>Incidents</th>
+      <th>Property crimes</th>
+      <th>Violent crimes</th>
+      <th>Group size</th>
+      <th>Avg major crimes</th>
+      <th>Avg other crimes</th>
+      <th>Avg incidents</th>
+      <th>Avg property crimes</th>
+      <th>Avg violent crimes</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @safety_reports.each do |safety_report| %>
+      <tr>
+        <td><%= safety_report.building %></td>
+        <td><%= safety_report.dbn %></td>
+        <td><%= safety_report.major_crimes %></td>
+        <td><%= safety_report.other_crimes %></td>
+        <td><%= safety_report.incidents %></td>
+        <td><%= safety_report.property_crimes %></td>
+        <td><%= safety_report.violent_crimes %></td>
+        <td><%= safety_report.group_size %></td>
+        <td><%= safety_report.avg_major_crimes %></td>
+        <td><%= safety_report.avg_other_crimes %></td>
+        <td><%= safety_report.avg_incidents %></td>
+        <td><%= safety_report.avg_property_crimes %></td>
+        <td><%= safety_report.avg_violent_crimes %></td>
+        <td><%= link_to 'Show', safety_report %></td>
+        <td><%= link_to 'Edit', edit_safety_report_path(safety_report) %></td>
+        <td><%= link_to 'Destroy', safety_report, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Safety report', new_safety_report_path %>

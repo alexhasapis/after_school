@@ -1,0 +1,69 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Building:</strong>
+  <%= @safety_report.building %>
+</p>
+
+<p>
+  <strong>Dbn:</strong>
+  <%= @safety_report.dbn %>
+</p>
+
+<p>
+  <strong>Major crimes:</strong>
+  <%= @safety_report.major_crimes %>
+</p>
+
+<p>
+  <strong>Other crimes:</strong>
+  <%= @safety_report.other_crimes %>
+</p>
+
+<p>
+  <strong>Incidents:</strong>
+  <%= @safety_report.incidents %>
+</p>
+
+<p>
+  <strong>Property crimes:</strong>
+  <%= @safety_report.property_crimes %>
+</p>
+
+<p>
+  <strong>Violent crimes:</strong>
+  <%= @safety_report.violent_crimes %>
+</p>
+
+<p>
+  <strong>Group size:</strong>
+  <%= @safety_report.group_size %>
+</p>
+
+<p>
+  <strong>Avg major crimes:</strong>
+  <%= @safety_report.avg_major_crimes %>
+</p>
+
+<p>
+  <strong>Avg other crimes:</strong>
+  <%= @safety_report.avg_other_crimes %>
+</p>
+
+<p>
+  <strong>Avg incidents:</strong>
+  <%= @safety_report.avg_incidents %>
+</p>
+
+<p>
+  <strong>Avg property crimes:</strong>
+  <%= @safety_report.avg_property_crimes %>
+</p>
+
+<p>
+  <strong>Avg violent crimes:</strong>
+  <%= @safety_report.avg_violent_crimes %>
+</p>
+
+<%= link_to 'Edit', edit_safety_report_path(@safety_report) %> |
+<%= link_to 'Back', safety_reports_path %>

@@ -1,0 +1,69 @@
+<%= form_for(@safety_report) do |f| %>
+  <% if @safety_report.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@safety_report.errors.count, "error") %> prohibited this safety_report from being saved:</h2>
+
+      <ul>
+      <% @safety_report.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :building %><br>
+    <%= f.text_field :building %>
+  </div>
+  <div class="field">
+    <%= f.label :dbn %><br>
+    <%= f.text_field :dbn %>
+  </div>
+  <div class="field">
+    <%= f.label :major_crimes %><br>
+    <%= f.number_field :major_crimes %>
+  </div>
+  <div class="field">
+    <%= f.label :other_crimes %><br>
+    <%= f.number_field :other_crimes %>
+  </div>
+  <div class="field">
+    <%= f.label :incidents %><br>
+    <%= f.number_field :incidents %>
+  </div>
+  <div class="field">
+    <%= f.label :property_crimes %><br>
+    <%= f.number_field :property_crimes %>
+  </div>
+  <div class="field">
+    <%= f.label :violent_crimes %><br>
+    <%= f.number_field :violent_crimes %>
+  </div>
+  <div class="field">
+    <%= f.label :group_size %><br>
+    <%= f.text_field :group_size %>
+  </div>
+  <div class="field">
+    <%= f.label :avg_major_crimes %><br>
+    <%= f.text_field :avg_major_crimes %>
+  </div>
+  <div class="field">
+    <%= f.label :avg_other_crimes %><br>
+    <%= f.text_field :avg_other_crimes %>
+  </div>
+  <div class="field">
+    <%= f.label :avg_incidents %><br>
+    <%= f.text_field :avg_incidents %>
+  </div>
+  <div class="field">
+    <%= f.label :avg_property_crimes %><br>
+    <%= f.text_field :avg_property_crimes %>
+  </div>
+  <div class="field">
+    <%= f.label :avg_violent_crimes %><br>
+    <%= f.text_field :avg_violent_crimes %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
