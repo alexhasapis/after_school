@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :after_school_programs
+
   resources :performances
 
   resources :schools

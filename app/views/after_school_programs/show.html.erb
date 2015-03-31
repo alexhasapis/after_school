@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Program:</strong>
+  <%= @after_school_program.program %>
+</p>
+
+<p>
+  <strong>Program type:</strong>
+  <%= @after_school_program.program_type %>
+</p>
+
+<p>
+  <strong>Site:</strong>
+  <%= @after_school_program.site %>
+</p>
+
+<p>
+  <strong>Boro:</strong>
+  <%= @after_school_program.boro %>
+</p>
+
+<p>
+  <strong>Agency:</strong>
+  <%= @after_school_program.agency %>
+</p>
+
+<p>
+  <strong>Grade age level:</strong>
+  <%= @after_school_program.grade_age_level %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @after_school_program.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @after_school_program.longitude %>
+</p>
+
+<%= link_to 'Edit', edit_after_school_program_path(@after_school_program) %> |
+<%= link_to 'Back', after_school_programs_path %>

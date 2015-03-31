@@ -1,0 +1,49 @@
+<%= form_for(@after_school_program) do |f| %>
+  <% if @after_school_program.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@after_school_program.errors.count, "error") %> prohibited this after_school_program from being saved:</h2>
+
+      <ul>
+      <% @after_school_program.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :program %><br>
+    <%= f.text_field :program %>
+  </div>
+  <div class="field">
+    <%= f.label :program_type %><br>
+    <%= f.text_field :program_type %>
+  </div>
+  <div class="field">
+    <%= f.label :site %><br>
+    <%= f.text_field :site %>
+  </div>
+  <div class="field">
+    <%= f.label :boro %><br>
+    <%= f.text_field :boro %>
+  </div>
+  <div class="field">
+    <%= f.label :agency %><br>
+    <%= f.text_field :agency %>
+  </div>
+  <div class="field">
+    <%= f.label :grade_age_level %><br>
+    <%= f.text_field :grade_age_level %>
+  </div>
+  <div class="field">
+    <%= f.label :latitude %><br>
+    <%= f.text_field :latitude %>
+  </div>
+  <div class="field">
+    <%= f.label :longitude %><br>
+    <%= f.text_field :longitude %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

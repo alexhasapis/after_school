@@ -1,0 +1,41 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing After School Programs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Program</th>
+      <th>Program type</th>
+      <th>Site</th>
+      <th>Boro</th>
+      <th>Agency</th>
+      <th>Grade age level</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @after_school_programs.each do |after_school_program| %>
+      <tr>
+        <td><%= after_school_program.program %></td>
+        <td><%= after_school_program.program_type %></td>
+        <td><%= after_school_program.site %></td>
+        <td><%= after_school_program.boro %></td>
+        <td><%= after_school_program.agency %></td>
+        <td><%= after_school_program.grade_age_level %></td>
+        <td><%= after_school_program.latitude %></td>
+        <td><%= after_school_program.longitude %></td>
+        <td><%= link_to 'Show', after_school_program %></td>
+        <td><%= link_to 'Edit', edit_after_school_program_path(after_school_program) %></td>
+        <td><%= link_to 'Destroy', after_school_program, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New After school program', new_after_school_program_path %>
