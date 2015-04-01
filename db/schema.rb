@@ -20,10 +20,10 @@ ActiveRecord::Schema.define(version: 20150331151201) do
     t.string   "boro",            limit: 255
     t.string   "agency",          limit: 255
     t.string   "grade_age_level", limit: 255
-    t.decimal  "latitude",                    precision: 10, scale: 8
-    t.decimal  "longitude",                   precision: 11, scale: 8
-    t.datetime "created_at",                                           null: false
-    t.datetime "updated_at",                                           null: false
+    t.decimal  "latitude",                    precision: 16, scale: 14
+    t.decimal  "longitude",                   precision: 16, scale: 14
+    t.datetime "created_at",                                            null: false
+    t.datetime "updated_at",                                            null: false
   end
 
   create_table "performances", force: :cascade do |t|
@@ -74,10 +74,10 @@ ActiveRecord::Schema.define(version: 20150331151201) do
     t.string   "website",         limit: 255
     t.integer  "total_students",  limit: 4
     t.string   "school_type",     limit: 255
-    t.decimal  "latitude",                    precision: 10, scale: 8
-    t.decimal  "longitude",                   precision: 11, scale: 8
-    t.datetime "created_at",                                           null: false
-    t.datetime "updated_at",                                           null: false
+    t.decimal  "latitude",                    precision: 16, scale: 14
+    t.decimal  "longitude",                   precision: 16, scale: 14
+    t.datetime "created_at",                                            null: false
+    t.datetime "updated_at",                                            null: false
   end
 
 end

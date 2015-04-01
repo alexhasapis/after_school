@@ -83,15 +83,15 @@ puts Benchmark.measure{
   IGNORE 1 LINES
   (@id, building, dbn, @name, @code, @add, @boro, @geo, @reg, @bname, @schools, @inbldg, @major_crimes, @other_crimes, @incidents, @property_crimes, @violent_crimes, group_size, @range, @avg_major_crimes, @avg_other_crimes, @avg_incidents, @avg_property_crimes, @avg_violent_crimes)
   SET
-    major_crimes = REPLACE(@major_crimes, "N/A", NULL),
-    other_crimes = REPLACE(@other_crimes, "N/A", NULL),
-    incidents = REPLACE(@incidents, "N/A", NULL),
-    property_crimes = REPLACE(@property_crimes, "N/A", NULL),
-    violent_crimes = REPLACE(@violent_crimes, "N/A", NULL),
-    avg_major_crimes = REPLACE(@avg_major_crimes, "N/A", NULL),
-    avg_other_crimes = REPLACE(@avg_other_crimes, "N/A", NULL),
-    avg_incidents = REPLACE(@avg_incidents, "N/A", NULL),
-    avg_property_crimes = REPLACE(@avg_property_crimes, "N/A", NULL),
-    avg_violent_crimes = REPLACE(@avg_violent_crimes, "N/A", NULL)
+    major_crimes = REPLACE(@major_crimes, 'N/A', 0),
+    other_crimes = REPLACE(@other_crimes, 'N/A', 0),
+    incidents = REPLACE(@incidents, 'N/A', 0),
+    property_crimes = REPLACE(@property_crimes, 'N/A', 0),
+    violent_crimes = REPLACE(@violent_crimes, 'N/A', 0),
+    avg_major_crimes = REPLACE(@avg_major_crimes, 'N/A', 0),
+    avg_other_crimes = REPLACE(@avg_other_crimes, 'N/A', 0),
+    avg_incidents = REPLACE(@avg_incidents, 'N/A', 0),
+    avg_property_crimes = REPLACE(@avg_property_crimes, 'N/A', 0),
+    avg_violent_crimes = REPLACE(@avg_violent_crimes, 'N/A', 0)
   SQL
 }

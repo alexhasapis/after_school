@@ -11,8 +11,8 @@ class CreateSchools < ActiveRecord::Migration
       t.string :website
       t.integer :total_students
       t.string :school_type
-      t.decimal :latitude, precision: 10, scale: 8
-      t.decimal :longitude, precision: 11, scale: 8
+      t.decimal :latitude, precision: 16, scale: 14
+      t.decimal :longitude, precision: 16, scale: 14
 
       t.timestamps null: false
     end

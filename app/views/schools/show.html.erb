@@ -1,5 +1,5 @@
 <p id="notice"><%= notice %></p>
-
+<div id="map-canvas"></div>
 <p>
   <strong>Dbn:</strong>
   <%= @school.dbn %>
@@ -37,7 +37,7 @@
 
 <p>
   <strong>Website:</strong>
-  <%= @school.website %>
+  <a href="<%= @school.website %>"><%= @school.website %></a>
 </p>
 
 <p>
@@ -50,13 +50,11 @@
   <%= @school.school_type %>
 </p>
 
-<p>
-  <strong>Latitude:</strong>
+<p hidden id="lat">
   <%= @school.latitude %>
 </p>
 
-<p>
-  <strong>Longitude:</strong>
+<p hidden id='long'>
   <%= @school.longitude %>
 </p>
 
