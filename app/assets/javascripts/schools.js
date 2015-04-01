@@ -1,9 +1,9 @@
 
 var map;
 
-function initialize(latitude, longitude){
-
-  var currentLocation = new google.maps.LatLng(latitude, longitude);
+function initialize(data){
+  
+  var currentLocation = new google.maps.LatLng(data.latitude, data.longitude);
 
     var mapOptions = {
       center: currentLocation,
@@ -20,8 +20,9 @@ marker.setMap(map);
 };
 
 $(document).ready(function(){
-    var latitude = parseFloat($('p#lat').text())
-    var longitude = parseFloat($('p#long').text())
+    // var latitude = parseFloat($('p#lat').text())
+    // var longitude = parseFloat($('p#long').text())
 
-    initialize(latitude, longitude);
+    // initialize(latitude, longitude);
+
 });

@@ -10,9 +10,10 @@ class SchoolsController < ApplicationController
   # GET /schools/1
   # GET /schools/1.json
   def show
+
     respond_to do |format|
       format.html {render :show}
-      format.json {render json => @school}
+      format.json {render :json => @school}
     end
   end
 
