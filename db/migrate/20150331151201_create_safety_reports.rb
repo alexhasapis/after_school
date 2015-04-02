@@ -8,6 +8,7 @@ class CreateSafetyReports < ActiveRecord::Migration
       t.integer :incidents
       t.integer :property_crimes
       t.integer :violent_crimes
+      t.integer :number_schools
       t.string :group_size
       t.decimal :avg_major_crimes, precision: 4, scale: 2
       t.decimal :avg_other_crimes, precision: 4, scale: 2

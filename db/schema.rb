@@ -53,6 +53,7 @@ ActiveRecord::Schema.define(version: 20150331151201) do
     t.integer  "incidents",           limit: 4
     t.integer  "property_crimes",     limit: 4
     t.integer  "violent_crimes",      limit: 4
+    t.integer  "number_schools",      limit: 4
     t.string   "group_size",          limit: 255
     t.decimal  "avg_major_crimes",                precision: 4, scale: 2
     t.decimal  "avg_other_crimes",                precision: 4, scale: 2
