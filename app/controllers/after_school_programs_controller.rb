@@ -61,6 +61,22 @@ class AfterSchoolProgramsController < ApplicationController
     end
   end
 
+  def get_school_progs
+    lat = params[:lat]
+    long = params[:long]
+
+    search_query = AfterSchoolProgram.connection.select_all(" 
+    SELECT *, ((ACOS(SIN(latitude * PI() / 180) * SIN(#{lat} * PI() / 180) + 
+     COS(latitude * PI() / 180) * COS(#{lat} * PI() / 180) * COS((longitude - #{long}) * 
+       PI() / 180)) * 180 / PI()) * 60 * 1.1515) AS distance
+    FROM `after_school_programs`
+    WHERE grade_age_level= 'High School' OR grade_age_level= '13 to 21' OR grade_age_level= '16 to 21'
+    HAVING distance<=1")
+
+    result = search_query.rows.map { |row| AfterSchoolProgram.find(row[0]) }
+    render json: result
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_after_school_program
