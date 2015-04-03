@@ -1,6 +1,6 @@
 
 var map;
-
+// create map
 function initialize(data){
   
   var currentLocation = new google.maps.LatLng(data.latitude, data.longitude);
@@ -23,6 +23,7 @@ function initialize(data){
   findAfterSchoolProgs(data.latitude, data.longitude)
 };
 
+// find afterschool programs in the area
 function findAfterSchoolProgs(latitude, longitude){
   $.ajax({
       url:      '/getschoolprogs',
@@ -32,11 +33,26 @@ function findAfterSchoolProgs(latitude, longitude){
   }).done(function(data) {
     console.log(data)
     for (var i = 0; i < data.length; i++){
+      var point = new google.maps.LatLng(data[i].latitude, data[i].longitude);
+
       var marker = new google.maps.Marker({
-          position: new google.maps.LatLng(data[i].latitude, data[i].longitude),
+          position: point,
           map: map,
-          icon: '/assets/daycare.png'
+          icon: '/assets/daycare.png',
+          title: data[i].program,
+          clickable: true
         })
+
+      marker.info = new google.maps.InfoWindow({
+      content: '<b>Type:</b> ' 
+      + data[i].program_type +'<br> <b>Site:</b>' + data[i].program_site + '<br> <b>Partner:</b>' + data[i].agency 
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker) {
+            return function() {
+                this.info.open(map, marker);
+            }
+        })(marker));
     }
   });
 }

@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require foundation/foundation
 //= require foundation/foundation.dropdown
+//= javascript_include_tag '//cdnjs.cloudflare.com/ajax/libs/d3/3.0.8/d3.min.js'
 //= require turbolinks
 //= require_tree .
 
