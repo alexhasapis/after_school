@@ -63,5 +63,7 @@
 <script type="text/javascript">
   $(document).ready(function(){
     initialize(<%=raw @school.to_json%>)
+    createPerformanceCharts(<%=raw @school_performance.to_json%>)
+    createSafetyChart(<%=raw @school_safety.to_json%>)
   })
 </script>

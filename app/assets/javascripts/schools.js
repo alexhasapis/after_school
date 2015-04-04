@@ -1,5 +1,6 @@
 
 var map;
+var infoWindows = [];
 // create map
 function initialize(data){
   
@@ -44,12 +45,15 @@ function findAfterSchoolProgs(latitude, longitude){
         })
 
       marker.info = new google.maps.InfoWindow({
-      content: '<b>Type:</b> ' 
-      + data[i].program_type +'<br> <b>Site:</b>' + data[i].program_site + '<br> <b>Partner:</b>' + data[i].agency 
+      content: '<b>Program Type:</b> ' 
+      + data[i].program_type +'<br> <b>Site:</b> ' + data[i].site + '<br> <b>Partner:</b> ' + data[i].agency 
       });
+
+      infoWindows.push(marker.info);
 
       google.maps.event.addListener(marker, 'click', (function(marker) {
             return function() {
+                closeInfoWindows();
                 this.info.open(map, marker);
             }
         })(marker));
@@ -57,12 +61,23 @@ function findAfterSchoolProgs(latitude, longitude){
   });
 }
 
+function closeInfoWindows(){
+  infoWindows.forEach(function(info){
+    info.close();
+  });
+};
 
 
-$(document).ready(function(){
-    // var latitude = parseFloat($('p#lat').text())
-    // var longitude = parseFloat($('p#long').text())
+// D3 Performance
 
-    // initialize(latitude, longitude);
+function createPerformanceCharts(data){
 
-});
+}
+
+
+
+// D3 Safety
+
+function createSafetyChart(data){
+
+}

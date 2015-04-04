@@ -10,7 +10,8 @@ class SchoolsController < ApplicationController
   # GET /schools/1
   # GET /schools/1.json
   def show
-
+    @school_performance = @school.performance
+    @school_safety = @school.safety_report
     respond_to do |format|
       format.html {render :show}
       format.json {render :json => @school}
