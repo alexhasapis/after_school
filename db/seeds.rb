@@ -81,7 +81,7 @@ puts Benchmark.measure{
   OPTIONALLY ENCLOSED BY '"'
   LINES TERMINATED BY '\n'
   IGNORE 1 LINES
-  (@id, building, dbn, @name, @code, @add, @boro, @geo, @reg, @bname, number_schools, @inbldg, @major_crimes, @other_crimes, @incidents, @property_crimes, @violent_crimes, group_size, @range, @avg_major_crimes, @avg_other_crimes, @avg_incidents, @avg_property_crimes, @avg_violent_crimes)
+  (@id, building, dbn, @name, @code, @add, @boro, @geo, @reg, @bname, number_schools, @inbldg, @major_crimes, @other_crimes, @incidents, @property_crimes, @violent_crimes, @eng, group_size, @avg_major_crimes, @avg_other_crimes, @avg_incidents, @avg_property_crimes, @avg_violent_crimes)
   SET
     major_crimes = REPLACE(@major_crimes, 'N/A', 0),
     other_crimes = REPLACE(@other_crimes, 'N/A', 0),
@@ -100,7 +100,7 @@ puts Benchmark.measure{
   sql.execute "TRUNCATE safety_reports"
   sql.execute <<-SQL
   INSERT INTO safety_reports (building, dbn, number_schools, major_crimes, other_crimes, incidents, property_crimes, violent_crimes, group_size, avg_major_crimes, avg_other_crimes, avg_incidents, avg_property_crimes, avg_violent_crimes, created_at, updated_at)
-  SELECT building, dbn, COUNT(number_schools) - 1, SUM(major_crimes) / number_schools, SUM(other_crimes) / number_schools, SUM(incidents) / number_schools, SUM(property_crimes) / number_schools, SUM(violent_crimes) / number_schools, group_size, avg_major_crimes / number_schools, avg_other_crimes / number_schools, avg_incidents / number_schools, avg_property_crimes / number_schools, avg_violent_crimes / number_schools, created_at, updated_at
+  SELECT building, dbn, COUNT(number_schools), major_crimes, SUM(other_crimes), SUM(incidents), SUM(property_crimes), SUM(violent_crimes), group_size, SUM(avg_major_crimes), SUM(avg_other_crimes), SUM(avg_incidents), SUM(avg_property_crimes), SUM(avg_violent_crimes), created_at, updated_at
   FROM raw_safety_reports
   GROUP BY building;
   SQL
