@@ -10,10 +10,8 @@
     <%= javascript_include_tag "vendor/modernizr" %>
     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
-    <script type="text/javascript"
-      src="http://maps.googleapis.com/maps/api/js?sensor=false">
-    </script>
-    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <%= javascript_include_tag "http://maps.googleapis.com/maps/api/js?sensor=false" %>
+    <%= javascript_include_tag "http://d3js.org/d3.v3.min.js" %>
   </head>
 
   <body>

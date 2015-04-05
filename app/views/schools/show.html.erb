@@ -59,6 +59,6 @@
   $(document).ready(function(){
     initialize(<%=raw @school.to_json%>)
     setPerformanceVariables(<%=raw @school_performance.to_json%>)
-    createSafetyChart(<%=raw @school_safety.to_json%>)
+    createSafetyVariables(<%=raw @school_safety.to_json%>)
   })
 </script>

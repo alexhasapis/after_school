@@ -27,20 +27,26 @@ function createPerformanceChart(data){
   var width = 300,
   height = 300;
 
+  var tooltip = d3.select('body')
+    .append('div')
+    .attr('id', 'perftip')
+    .attr('class', 'tip')
+
   var y = d3.scale.linear()
   .range([height, 0])
   .domain([0, 100]);
 
-  var chart = d3.select("#performance")
+  var performanceChart = d3.select("#performance")
     .attr("width", width)
     .attr("height", height);
 
-    chart.selectAll('g').remove();
+
+    performanceChart.selectAll('g').remove();
 
 
     var barWidth = width / data.length;
 
-    var bar = chart.selectAll('g')
+    var bar = performanceChart.selectAll('g')
       .data(data)
       .enter().append("g")
       .attr("transform", function(d, i) { return "translate(" + i * barWidth + ",0)"; });
@@ -54,7 +60,17 @@ function createPerformanceChart(data){
     .attr("x", barWidth / 2)
     .attr("y", function(d) { return y(d.value) + 3; })
     .attr("dy", ".75em")
-    .text(function(d) { return d.value; });
+    .text(function(d) { return d.value + ' %'; });
+
+    performanceChart.selectAll('g')
+    .on('mouseover', function(d){
+        tooltip.text(d.label); 
+        return tooltip.style("visibility", "visible");
+        })
+    .on('mouseout', function(d){
+        return tooltip.style('visibility', 'hidden');
+       })
+
 
     function type(d) {
   d.value = +d.value; // coerce to number
