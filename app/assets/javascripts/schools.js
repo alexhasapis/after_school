@@ -68,16 +68,6 @@ function closeInfoWindows(){
 };
 
 
-// D3 Performance
-
-function createPerformanceCharts(data){
-
-}
 
 
 
-// D3 Safety
-
-function createSafetyChart(data){
-
-}

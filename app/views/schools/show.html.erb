@@ -50,20 +50,15 @@
   <%= @school.school_type %>
 </p>
 
-<p hidden id="lat">
-  <%= @school.latitude %>
-</p>
-
-<p hidden id='long'>
-  <%= @school.longitude %>
-</p>
-
 <%= link_to 'Edit', edit_school_path(@school) %> |
 <%= link_to 'Back', schools_path %>
+<svg class="chart" id="performance"></svg>
+<svg class="chart" id="safety"></svg>
+
 <script type="text/javascript">
   $(document).ready(function(){
     initialize(<%=raw @school.to_json%>)
-    createPerformanceCharts(<%=raw @school_performance.to_json%>)
+    setPerformanceVariables(<%=raw @school_performance.to_json%>)
     createSafetyChart(<%=raw @school_safety.to_json%>)
   })
 </script>
