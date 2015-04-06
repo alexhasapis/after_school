@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title><%= content_for?(:title) ? yield(:title) : "foundation-rails" %></title>
+    <title><%= content_for?(:title) ? yield(:title) : "NYC Schools DB" %></title>
 
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "vendor/modernizr" %>
@@ -15,7 +15,31 @@
   </head>
 
   <body>
+  <header>
+  <div class="sticky">
+    <nav class="top-bar" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="/">NYC High School DB</a></h1>
+    </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
 
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+          <li><%=link_to "All Boros", schools_path%></li>
+          <li><%=link_to "Manhattan", schools_path(:boro => "Manhattan")%></li>
+          <li><%=link_to "Brooklyn", schools_path(:boro => "Brooklyn")%></li>
+          <li><%=link_to "Bronx", schools_path(:boro => "Bronx")%></li>
+          <li><%=link_to "Queens", schools_path(:boro => "Queens")%></li>
+          <li><%=link_to "Staten Island", schools_path(:boro => "Staten Island")%></li>
+    </ul>
+  </section>
+</nav>
+</div>
+  </header>
     <%= yield %>
 
   </body>

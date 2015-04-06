@@ -11,9 +11,11 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery.turbolinks
 //= require jquery_ujs
 //= require foundation/foundation
 //= require foundation/foundation.dropdown
+//= require foundation/foundation.topbar
 //= require turbolinks
 //= require_tree .
 

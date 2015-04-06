@@ -1,10 +1,9 @@
 <p id="notice"><%= notice %></p>
-<div id="map-canvas"></div>
-<p>
-  <strong>Dbn:</strong>
-  <%= @school.dbn %>
-</p>
 
+<div class="clearfix">
+  <div id="map-canvas"></div>
+
+<div id="info">
 <p>
   <strong>Name:</strong>
   <%= @school.name %>
@@ -16,8 +15,8 @@
 </p>
 
 <p>
-  <strong>Building:</strong>
-  <%= @school.building %>
+  <strong>Address:</strong>
+  <%= @school.address %>
 </p>
 
 <p>
@@ -31,8 +30,8 @@
 </p>
 
 <p>
-  <strong>Address:</strong>
-  <%= @school.address %>
+  <strong>Total students:</strong>
+  <%= @school.total_students %>
 </p>
 
 <p>
@@ -41,19 +40,43 @@
 </p>
 
 <p>
-  <strong>Total students:</strong>
-  <%= @school.total_students %>
-</p>
-
-<p>
   <strong>School type:</strong>
   <%= @school.school_type %>
 </p>
 
-<%= link_to 'Edit', edit_school_path(@school) %> |
-<%= link_to 'Back', schools_path %>
+<p>
+  <strong>School Quality:</strong>
+  <%= @school.performance.quality_review %>
+</p>
+</div>
+</div>
+
+<div class="clearfix">
+
+<div id="graph1">
+<div class="button-bar">
+  <ul class="button-group round">
+    <li class="small button secondary">School On Track</li>
+    <li class="small button secondary">School Grad Rate</li>
+    <li class="small button secondary">School College Rate</li>
+  </ul>
+</div>
 <svg class="chart" id="performance"></svg>
+</div>
+
+<div id="graph2">
+<div class="button-bar">
+  <ul class="button-group round">
+    <li class="small button secondary">Major Crimes</li>
+    <li class="small button secondary">Other Crimes/Incidents</li>
+  </ul>
+</div>
 <svg class="chart" id="safety"></svg>
+</div>
+
+</div>
+<%= link_to 'Back', schools_path %>
+
 
 <script type="text/javascript">
   $(document).ready(function(){

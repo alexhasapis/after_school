@@ -15,3 +15,14 @@
  *= require foundation_and_overrides
 
  */
+
+ body {
+
+  margin: 1px 50px 50px 50px;
+
+ }
+
+.button-bar {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}

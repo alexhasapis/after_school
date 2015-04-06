@@ -18,9 +18,13 @@ function createSafetyChart(data){
     .attr('id', 'safetip')
     .attr('class', 'tip')
 
+  var maxVal = d3.max(data, function(d){
+    return d.value;
+  })
+
   var y = d3.scale.linear()
   .range([height, 0])
-  .domain([0, 100]);
+  .domain([0, maxVal]);
 
   var safetyChart = d3.select("#safety")
     .attr("width", width)

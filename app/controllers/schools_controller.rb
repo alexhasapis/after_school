@@ -4,7 +4,11 @@ class SchoolsController < ApplicationController
   # GET /schools
   # GET /schools.json
   def index
-    @schools = School.all
+    if params[:boro]
+      @schools = School.where('boro = ?', params[:boro])
+    else
+      @schools = School.all
+    end
   end
 
   # GET /schools/1
