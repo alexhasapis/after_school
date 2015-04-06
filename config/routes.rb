@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   resources :afterschoolprograms, :controller => "after_school_programs"
 
   post "/getschoolprogs", to: "after_school_programs#get_school_progs"
+
+  root to: "static#index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
