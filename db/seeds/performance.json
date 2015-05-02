@@ -1,0 +1,1667 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "xahu-rkwn",
+      "name" : "DOE High School Performance-Directory 2014-2015",
+      "attribution" : "Department of Education (DOE)",
+      "averageRating" : 0,
+      "category" : "Education",
+      "createdAt" : 1414617486,
+      "description" : "Performance of NYC High Schools",
+      "displayType" : "table",
+      "downloadCount" : 55,
+      "indexUpdatedAt" : 1414618006,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 9251209,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1414617603,
+      "publicationGroup" : 1841664,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1414617505,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "tableId" : 1841664,
+      "totalTimesRated" : 0,
+      "viewCount" : 161,
+      "viewLastModified" : 1414617862,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 173372411,
+        "name" : "dbn",
+        "dataTypeName" : "text",
+        "fieldName" : "dbn",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22626676,
+        "width" : 136,
+        "cachedContents" : {
+          "non_null" : 436,
+          "smallest" : "01M292",
+          "null" : 0,
+          "largest" : "32K556",
+          "top" : [ {
+            "count" : 20,
+            "item" : "30Q286"
+          }, {
+            "count" : 19,
+            "item" : "30Q301"
+          }, {
+            "count" : 18,
+            "item" : "30Q445"
+          }, {
+            "count" : 17,
+            "item" : "30Q450"
+          }, {
+            "count" : 16,
+            "item" : "30Q501"
+          }, {
+            "count" : 15,
+            "item" : "30Q502"
+          }, {
+            "count" : 14,
+            "item" : "30Q555"
+          }, {
+            "count" : 13,
+            "item" : "30Q575"
+          }, {
+            "count" : 12,
+            "item" : "30Q580"
+          }, {
+            "count" : 11,
+            "item" : "31R047"
+          }, {
+            "count" : 10,
+            "item" : "31R064"
+          }, {
+            "count" : 9,
+            "item" : "31R080"
+          }, {
+            "count" : 8,
+            "item" : "31R440"
+          }, {
+            "count" : 7,
+            "item" : "31R445"
+          }, {
+            "count" : 6,
+            "item" : "31R450"
+          }, {
+            "count" : 5,
+            "item" : "31R455"
+          }, {
+            "count" : 4,
+            "item" : "31R460"
+          }, {
+            "count" : 3,
+            "item" : "31R600"
+          }, {
+            "count" : 2,
+            "item" : "31R605"
+          }, {
+            "count" : 1,
+            "item" : "32K168"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 173372412,
+        "name" : "ontrack_year1_2013",
+        "dataTypeName" : "text",
+        "fieldName" : "ontrack_year1_2013",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22626677,
+        "width" : 316,
+        "cachedContents" : {
+          "non_null" : 436,
+          "smallest" : "100%",
+          "null" : 0,
+          "largest" : "N/A",
+          "top" : [ {
+            "count" : 20,
+            "item" : "83%"
+          }, {
+            "count" : 19,
+            "item" : "99%"
+          }, {
+            "count" : 18,
+            "item" : "98%"
+          }, {
+            "count" : 17,
+            "item" : "N/A"
+          }, {
+            "count" : 16,
+            "item" : "89%"
+          }, {
+            "count" : 15,
+            "item" : "82%"
+          }, {
+            "count" : 14,
+            "item" : "94%"
+          }, {
+            "count" : 13,
+            "item" : "73%"
+          }, {
+            "count" : 12,
+            "item" : "78%"
+          }, {
+            "count" : 11,
+            "item" : "77%"
+          }, {
+            "count" : 10,
+            "item" : "85%"
+          }, {
+            "count" : 9,
+            "item" : "100%"
+          }, {
+            "count" : 8,
+            "item" : "95%"
+          }, {
+            "count" : 7,
+            "item" : "80%"
+          }, {
+            "count" : 6,
+            "item" : "84%"
+          }, {
+            "count" : 5,
+            "item" : "74%"
+          }, {
+            "count" : 4,
+            "item" : "81%"
+          }, {
+            "count" : 3,
+            "item" : "68%"
+          }, {
+            "count" : 2,
+            "item" : "91%"
+          }, {
+            "count" : 1,
+            "item" : "70%"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 173372413,
+        "name" : "graduation_rate_2013",
+        "dataTypeName" : "text",
+        "fieldName" : "graduation_rate_2013",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22626678,
+        "width" : 340,
+        "cachedContents" : {
+          "non_null" : 436,
+          "smallest" : "100%",
+          "null" : 0,
+          "largest" : "N/A",
+          "top" : [ {
+            "count" : 20,
+            "item" : "98%"
+          }, {
+            "count" : 19,
+            "item" : "N/A"
+          }, {
+            "count" : 18,
+            "item" : "66%"
+          }, {
+            "count" : 17,
+            "item" : "75%"
+          }, {
+            "count" : 16,
+            "item" : "85%"
+          }, {
+            "count" : 15,
+            "item" : "68%"
+          }, {
+            "count" : 14,
+            "item" : "69%"
+          }, {
+            "count" : 13,
+            "item" : "65%"
+          }, {
+            "count" : 12,
+            "item" : "74%"
+          }, {
+            "count" : 11,
+            "item" : "71%"
+          }, {
+            "count" : 10,
+            "item" : "70%"
+          }, {
+            "count" : 9,
+            "item" : "78%"
+          }, {
+            "count" : 8,
+            "item" : "87%"
+          }, {
+            "count" : 7,
+            "item" : "96%"
+          }, {
+            "count" : 6,
+            "item" : "67%"
+          }, {
+            "count" : 5,
+            "item" : "83%"
+          }, {
+            "count" : 4,
+            "item" : "91%"
+          }, {
+            "count" : 3,
+            "item" : "61%"
+          }, {
+            "count" : 2,
+            "item" : "80%"
+          }, {
+            "count" : 1,
+            "item" : "92%"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 173372414,
+        "name" : "college_career_rate_2013",
+        "dataTypeName" : "text",
+        "fieldName" : "college_career_rate_2013",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22626679,
+        "width" : 388,
+        "cachedContents" : {
+          "non_null" : 436,
+          "smallest" : "100%",
+          "null" : 0,
+          "largest" : "N/A",
+          "top" : [ {
+            "count" : 20,
+            "item" : "55%"
+          }, {
+            "count" : 19,
+            "item" : "58%"
+          }, {
+            "count" : 18,
+            "item" : "N/A"
+          }, {
+            "count" : 17,
+            "item" : "41%"
+          }, {
+            "count" : 16,
+            "item" : "45%"
+          }, {
+            "count" : 15,
+            "item" : "42%"
+          }, {
+            "count" : 14,
+            "item" : "34%"
+          }, {
+            "count" : 13,
+            "item" : "67%"
+          }, {
+            "count" : 12,
+            "item" : "38%"
+          }, {
+            "count" : 11,
+            "item" : "47%"
+          }, {
+            "count" : 10,
+            "item" : "44%"
+          }, {
+            "count" : 9,
+            "item" : "49%"
+          }, {
+            "count" : 8,
+            "item" : "60%"
+          }, {
+            "count" : 7,
+            "item" : "77%"
+          }, {
+            "count" : 6,
+            "item" : "40%"
+          }, {
+            "count" : 5,
+            "item" : "46%"
+          }, {
+            "count" : 4,
+            "item" : "62%"
+          }, {
+            "count" : 3,
+            "item" : "51%"
+          }, {
+            "count" : 2,
+            "item" : "80%"
+          }, {
+            "count" : 1,
+            "item" : "85%"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 173372415,
+        "name" : "student_satisfaction_2013",
+        "dataTypeName" : "text",
+        "fieldName" : "student_satisfaction_2013",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22626680,
+        "width" : 400,
+        "cachedContents" : {
+          "non_null" : 436,
+          "smallest" : "5.3",
+          "null" : 0,
+          "largest" : "N/A",
+          "top" : [ {
+            "count" : 20,
+            "item" : "7.1"
+          }, {
+            "count" : 19,
+            "item" : "7.5"
+          }, {
+            "count" : 18,
+            "item" : "8.4"
+          }, {
+            "count" : 17,
+            "item" : "6.5"
+          }, {
+            "count" : 16,
+            "item" : "7.6"
+          }, {
+            "count" : 15,
+            "item" : "8.2"
+          }, {
+            "count" : 14,
+            "item" : "N/A"
+          }, {
+            "count" : 13,
+            "item" : "6.8"
+          }, {
+            "count" : 12,
+            "item" : "7.9"
+          }, {
+            "count" : 11,
+            "item" : "7.3"
+          }, {
+            "count" : 10,
+            "item" : "7.8"
+          }, {
+            "count" : 9,
+            "item" : "7.2"
+          }, {
+            "count" : 8,
+            "item" : "6.9"
+          }, {
+            "count" : 7,
+            "item" : "7.4"
+          }, {
+            "count" : 6,
+            "item" : "8"
+          }, {
+            "count" : 5,
+            "item" : "7.7"
+          }, {
+            "count" : 4,
+            "item" : "8.3"
+          }, {
+            "count" : 3,
+            "item" : "8.1"
+          }, {
+            "count" : 2,
+            "item" : "6.1"
+          }, {
+            "count" : 1,
+            "item" : "8.5"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 173372416,
+        "name" : "ontrack_year1_2012",
+        "dataTypeName" : "text",
+        "fieldName" : "ontrack_year1_2012",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22626681,
+        "width" : 316,
+        "cachedContents" : {
+          "non_null" : 436,
+          "smallest" : "100%",
+          "null" : 0,
+          "largest" : "N/A",
+          "top" : [ {
+            "count" : 20,
+            "item" : "81%"
+          }, {
+            "count" : 19,
+            "item" : "69%"
+          }, {
+            "count" : 18,
+            "item" : "97%"
+          }, {
+            "count" : 17,
+            "item" : "96%"
+          }, {
+            "count" : 16,
+            "item" : "N/A"
+          }, {
+            "count" : 15,
+            "item" : "90%"
+          }, {
+            "count" : 14,
+            "item" : "87%"
+          }, {
+            "count" : 13,
+            "item" : "77%"
+          }, {
+            "count" : 12,
+            "item" : "79%"
+          }, {
+            "count" : 11,
+            "item" : "75%"
+          }, {
+            "count" : 10,
+            "item" : "80%"
+          }, {
+            "count" : 9,
+            "item" : "99%"
+          }, {
+            "count" : 8,
+            "item" : "84%"
+          }, {
+            "count" : 7,
+            "item" : "85%"
+          }, {
+            "count" : 6,
+            "item" : "74%"
+          }, {
+            "count" : 5,
+            "item" : "71%"
+          }, {
+            "count" : 4,
+            "item" : "73%"
+          }, {
+            "count" : 3,
+            "item" : "78%"
+          }, {
+            "count" : 2,
+            "item" : "70%"
+          }, {
+            "count" : 1,
+            "item" : "76%"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 173372417,
+        "name" : "graduation_rate_2012",
+        "dataTypeName" : "text",
+        "fieldName" : "graduation_rate_2012",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22626682,
+        "width" : 340,
+        "cachedContents" : {
+          "non_null" : 436,
+          "smallest" : "100%",
+          "null" : 0,
+          "largest" : "N/A",
+          "top" : [ {
+            "count" : 20,
+            "item" : "74%"
+          }, {
+            "count" : 19,
+            "item" : "73%"
+          }, {
+            "count" : 18,
+            "item" : "N/A"
+          }, {
+            "count" : 17,
+            "item" : "65%"
+          }, {
+            "count" : 16,
+            "item" : "82%"
+          }, {
+            "count" : 15,
+            "item" : "100%"
+          }, {
+            "count" : 14,
+            "item" : "64%"
+          }, {
+            "count" : 13,
+            "item" : "70%"
+          }, {
+            "count" : 12,
+            "item" : "72%"
+          }, {
+            "count" : 11,
+            "item" : "75%"
+          }, {
+            "count" : 10,
+            "item" : "68%"
+          }, {
+            "count" : 9,
+            "item" : "62%"
+          }, {
+            "count" : 8,
+            "item" : "63%"
+          }, {
+            "count" : 7,
+            "item" : "77%"
+          }, {
+            "count" : 6,
+            "item" : "85%"
+          }, {
+            "count" : 5,
+            "item" : "99%"
+          }, {
+            "count" : 4,
+            "item" : "56%"
+          }, {
+            "count" : 3,
+            "item" : "71%"
+          }, {
+            "count" : 2,
+            "item" : "76%"
+          }, {
+            "count" : 1,
+            "item" : "81%"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 173372418,
+        "name" : "college_career_rate_2012",
+        "dataTypeName" : "text",
+        "fieldName" : "college_career_rate_2012",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22626683,
+        "width" : 388,
+        "cachedContents" : {
+          "non_null" : 436,
+          "smallest" : "100%",
+          "null" : 0,
+          "largest" : "N/A",
+          "top" : [ {
+            "count" : 20,
+            "item" : "40%"
+          }, {
+            "count" : 19,
+            "item" : "N/A"
+          }, {
+            "count" : 18,
+            "item" : "43%"
+          }, {
+            "count" : 17,
+            "item" : "63%"
+          }, {
+            "count" : 16,
+            "item" : "42%"
+          }, {
+            "count" : 15,
+            "item" : "53%"
+          }, {
+            "count" : 14,
+            "item" : "41%"
+          }, {
+            "count" : 13,
+            "item" : "52%"
+          }, {
+            "count" : 12,
+            "item" : "57%"
+          }, {
+            "count" : 11,
+            "item" : "37%"
+          }, {
+            "count" : 10,
+            "item" : "46%"
+          }, {
+            "count" : 9,
+            "item" : "32%"
+          }, {
+            "count" : 8,
+            "item" : "54%"
+          }, {
+            "count" : 7,
+            "item" : "47%"
+          }, {
+            "count" : 6,
+            "item" : "36%"
+          }, {
+            "count" : 5,
+            "item" : "82%"
+          }, {
+            "count" : 4,
+            "item" : "55%"
+          }, {
+            "count" : 3,
+            "item" : "72%"
+          }, {
+            "count" : 2,
+            "item" : "100%"
+          }, {
+            "count" : 1,
+            "item" : "81%"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 173372419,
+        "name" : "student_satisfaction_2012",
+        "dataTypeName" : "text",
+        "fieldName" : "student_satisfaction_2012",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22626684,
+        "width" : 400,
+        "cachedContents" : {
+          "non_null" : 436,
+          "smallest" : "4.8",
+          "null" : 0,
+          "largest" : "N/A",
+          "top" : [ {
+            "count" : 20,
+            "item" : "6.3"
+          }, {
+            "count" : 19,
+            "item" : "6.6"
+          }, {
+            "count" : 18,
+            "item" : "7.3"
+          }, {
+            "count" : 17,
+            "item" : "6.5"
+          }, {
+            "count" : 16,
+            "item" : "7.2"
+          }, {
+            "count" : 15,
+            "item" : "8"
+          }, {
+            "count" : 14,
+            "item" : "N/A"
+          }, {
+            "count" : 13,
+            "item" : "7.5"
+          }, {
+            "count" : 12,
+            "item" : "7.1"
+          }, {
+            "count" : 11,
+            "item" : "7"
+          }, {
+            "count" : 10,
+            "item" : "6.9"
+          }, {
+            "count" : 9,
+            "item" : "6.7"
+          }, {
+            "count" : 8,
+            "item" : "7.7"
+          }, {
+            "count" : 7,
+            "item" : "7.8"
+          }, {
+            "count" : 6,
+            "item" : "7.4"
+          }, {
+            "count" : 5,
+            "item" : "7.6"
+          }, {
+            "count" : 4,
+            "item" : "8.4"
+          }, {
+            "count" : 3,
+            "item" : "6.1"
+          }, {
+            "count" : 2,
+            "item" : "6.8"
+          }, {
+            "count" : 1,
+            "item" : "6.4"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 173372420,
+        "name" : "ontrack_year1_historic_avg_similar_schls",
+        "dataTypeName" : "text",
+        "fieldName" : "ontrack_year1_historic_avg_similar_schls",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22626685,
+        "width" : 580,
+        "cachedContents" : {
+          "non_null" : 436,
+          "smallest" : "62%",
+          "null" : 0,
+          "largest" : "N/A",
+          "top" : [ {
+            "count" : 20,
+            "item" : "72%"
+          }, {
+            "count" : 19,
+            "item" : "73%"
+          }, {
+            "count" : 18,
+            "item" : "85%"
+          }, {
+            "count" : 17,
+            "item" : "71%"
+          }, {
+            "count" : 16,
+            "item" : "96%"
+          }, {
+            "count" : 15,
+            "item" : "97%"
+          }, {
+            "count" : 14,
+            "item" : "N/A"
+          }, {
+            "count" : 13,
+            "item" : "81%"
+          }, {
+            "count" : 12,
+            "item" : "76%"
+          }, {
+            "count" : 11,
+            "item" : "77%"
+          }, {
+            "count" : 10,
+            "item" : "74%"
+          }, {
+            "count" : 9,
+            "item" : "80%"
+          }, {
+            "count" : 8,
+            "item" : "78%"
+          }, {
+            "count" : 7,
+            "item" : "82%"
+          }, {
+            "count" : 6,
+            "item" : "92%"
+          }, {
+            "count" : 5,
+            "item" : "79%"
+          }, {
+            "count" : 4,
+            "item" : "87%"
+          }, {
+            "count" : 3,
+            "item" : "94%"
+          }, {
+            "count" : 2,
+            "item" : "95%"
+          }, {
+            "count" : 1,
+            "item" : "90%"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 173372421,
+        "name" : "graduation_rate_historic_avg_similar_schls",
+        "dataTypeName" : "text",
+        "fieldName" : "graduation_rate_historic_avg_similar_schls",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22626686,
+        "width" : 604,
+        "cachedContents" : {
+          "non_null" : 436,
+          "smallest" : "51%",
+          "null" : 0,
+          "largest" : "N/A",
+          "top" : [ {
+            "count" : 20,
+            "item" : "65%"
+          }, {
+            "count" : 19,
+            "item" : "64%"
+          }, {
+            "count" : 18,
+            "item" : "80%"
+          }, {
+            "count" : 17,
+            "item" : "62%"
+          }, {
+            "count" : 16,
+            "item" : "96%"
+          }, {
+            "count" : 15,
+            "item" : "97%"
+          }, {
+            "count" : 14,
+            "item" : "N/A"
+          }, {
+            "count" : 13,
+            "item" : "75%"
+          }, {
+            "count" : 12,
+            "item" : "71%"
+          }, {
+            "count" : 11,
+            "item" : "72%"
+          }, {
+            "count" : 10,
+            "item" : "66%"
+          }, {
+            "count" : 9,
+            "item" : "74%"
+          }, {
+            "count" : 8,
+            "item" : "76%"
+          }, {
+            "count" : 7,
+            "item" : "90%"
+          }, {
+            "count" : 6,
+            "item" : "70%"
+          }, {
+            "count" : 5,
+            "item" : "93%"
+          }, {
+            "count" : 4,
+            "item" : "87%"
+          }, {
+            "count" : 3,
+            "item" : "82%"
+          }, {
+            "count" : 2,
+            "item" : "68%"
+          }, {
+            "count" : 1,
+            "item" : "79%"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 173372422,
+        "name" : "college_career_rate_historic_avg_similar_schls",
+        "dataTypeName" : "text",
+        "fieldName" : "college_career_rate_historic_avg_similar_schls",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22626687,
+        "width" : 652,
+        "cachedContents" : {
+          "non_null" : 436,
+          "smallest" : "31%",
+          "null" : 0,
+          "largest" : "N/A",
+          "top" : [ {
+            "count" : 20,
+            "item" : "41%"
+          }, {
+            "count" : 19,
+            "item" : "39%"
+          }, {
+            "count" : 18,
+            "item" : "N/A"
+          }, {
+            "count" : 17,
+            "item" : "54%"
+          }, {
+            "count" : 16,
+            "item" : "48%"
+          }, {
+            "count" : 15,
+            "item" : "49%"
+          }, {
+            "count" : 14,
+            "item" : "43%"
+          }, {
+            "count" : 13,
+            "item" : "53%"
+          }, {
+            "count" : 12,
+            "item" : "67%"
+          }, {
+            "count" : 11,
+            "item" : "45%"
+          }, {
+            "count" : 10,
+            "item" : "47%"
+          }, {
+            "count" : 9,
+            "item" : "44%"
+          }, {
+            "count" : 8,
+            "item" : "46%"
+          }, {
+            "count" : 7,
+            "item" : "42%"
+          }, {
+            "count" : 6,
+            "item" : "64%"
+          }, {
+            "count" : 5,
+            "item" : "31%"
+          }, {
+            "count" : 4,
+            "item" : "32%"
+          }, {
+            "count" : 3,
+            "item" : "38%"
+          }, {
+            "count" : 2,
+            "item" : "33%"
+          }, {
+            "count" : 1,
+            "item" : "40%"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 173372423,
+        "name" : "student_satisfaction_historic_avg_similar_schls",
+        "dataTypeName" : "text",
+        "fieldName" : "student_satisfaction_historic_avg_similar_schls",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22626688,
+        "width" : 664,
+        "cachedContents" : {
+          "non_null" : 436,
+          "smallest" : "6.9",
+          "null" : 0,
+          "largest" : "N/A",
+          "top" : [ {
+            "count" : 20,
+            "item" : "7.3"
+          }, {
+            "count" : 19,
+            "item" : "7.1"
+          }, {
+            "count" : 18,
+            "item" : "7.5"
+          }, {
+            "count" : 17,
+            "item" : "7.2"
+          }, {
+            "count" : 16,
+            "item" : "7.8"
+          }, {
+            "count" : 15,
+            "item" : "N/A"
+          }, {
+            "count" : 14,
+            "item" : "7.4"
+          }, {
+            "count" : 13,
+            "item" : "7.6"
+          }, {
+            "count" : 12,
+            "item" : "7.7"
+          }, {
+            "count" : 11,
+            "item" : "8.3"
+          }, {
+            "count" : 10,
+            "item" : "7.9"
+          }, {
+            "count" : 9,
+            "item" : "6.9"
+          }, {
+            "count" : 8,
+            "item" : "7"
+          }, {
+            "count" : 7,
+            "item" : "8.4"
+          }, {
+            "count" : 6,
+            "item" : "8.2"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 173372424,
+        "name" : "quality_review_rating",
+        "dataTypeName" : "text",
+        "fieldName" : "quality_review_rating",
+        "position" : 15,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22626689,
+        "width" : 352,
+        "cachedContents" : {
+          "non_null" : 436,
+          "smallest" : "Developing",
+          "null" : 0,
+          "largest" : "Well Developed",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Proficient"
+          }, {
+            "count" : 19,
+            "item" : "Well Developed"
+          }, {
+            "count" : 18,
+            "item" : "N/A"
+          }, {
+            "count" : 17,
+            "item" : "Developing"
+          }, {
+            "count" : 16,
+            "item" : "Outstanding"
+          }, {
+            "count" : 15,
+            "item" : "Underdeveloped"
+          }, {
+            "count" : 14,
+            "item" : "Underdeveloped with Proficient Features"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 173372425,
+        "name" : "quality_review_year",
+        "dataTypeName" : "text",
+        "fieldName" : "quality_review_year",
+        "position" : 16,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22626690,
+        "width" : 328,
+        "cachedContents" : {
+          "non_null" : 436,
+          "smallest" : "2007-08",
+          "null" : 0,
+          "largest" : "N/A",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2012-13"
+          }, {
+            "count" : 19,
+            "item" : "2007-08"
+          }, {
+            "count" : 18,
+            "item" : "2009-10"
+          }, {
+            "count" : 17,
+            "item" : "2010-11"
+          }, {
+            "count" : 16,
+            "item" : "N/A"
+          }, {
+            "count" : 15,
+            "item" : "2011-12"
+          }, {
+            "count" : 14,
+            "item" : "2008-09"
+          } ]
+        },
+        "format" : {
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Annually"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Education (DOE)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "attachments" : [ {
+          "assetId" : "fhn5qchInYmqCE5NhsO42Ha-uAz3kKrt_9rqDddRiD4",
+          "blobId" : "",
+          "name" : "doe_hsdirectory_performance_data_dictionary_2014.xlsx",
+          "filename" : "doe_hsdirectory_performance_data_dictionary_2014.xlsx"
+        } ],
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "query" : {
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "doe high school performance-directory 2014-2015", "education" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "9829DF03-A906-40CD-A914-3FAE6883A631", 1, 1414617491, "399231", 1414617491, "399231", "{\n}", "01M292", "62%", "58%", "32%", "7.1", "81%", "51%", "40%", "6.3", "72%", "65%", "42%", "7.3", "Proficient", "2012-13" ]
+, [ 2, "35E4AAD0-4DA2-4B5E-A1C7-130A0FDBC31E", 2, 1414617491, "399231", 1414617491, "399231", "{\n}", "01M448", "83%", "78%", "55%", "7.5", "92%", "74%", "67%", "6.6", "73%", "64%", "41%", "7.1", "Proficient", "2012-13" ]
+, [ 3, "5040B118-B942-4B12-A151-7DB71735E030", 3, 1414617491, "399231", 1414617491, "399231", "{\n}", "01M450", "92%", "76%", "58%", "8.4", "92%", "73%", "56%", "7.3", "85%", "80%", "65%", "7.5", "Well Developed", "2007-08" ]
+, [ 4, "D6A3500A-B458-4B50-8DB1-9F2459C3E0E2", 4, 1414617491, "399231", 1414617491, "399231", "{\n}", "01M509", "59%", "36%", "38%", "6.5", "69%", "60%", "48%", "6.5", "71%", "62%", "39%", "7.2", "Proficient", "2009-10" ]
+, [ 5, "60471022-317A-4F1A-AF99-48FE380A7963", 5, 1414617491, "399231", 1414617491, "399231", "{\n}", "01M539", "99%", "98%", "84%", "7.6", "97%", "98%", "83%", "7.2", "96%", "96%", "87%", "7.8", "Proficient", "2010-11" ]
+, [ 6, "EED8EC60-F05E-41AF-B6A4-F31D5DDF3460", 6, 1414617491, "399231", 1414617491, "399231", "{\n}", "01M696", "96%", "98%", "94%", "8.2", "96%", "97%", "97%", "8", "97%", "97%", "89%", "7.8", "Well Developed", "2009-10" ]
+, [ 7, "29FCEE6E-74B2-4CC3-9B26-1EE56E702CD1", 7, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M047", "98%", "71%", "42%", "7.5", "68%", "55%", "30%", "7.3", "72%", "65%", "41%", "7.2", "Proficient", "2009-10" ]
+, [ 8, "747B9C80-188C-4282-B15B-D52B504D019F", 8, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M135", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 9, "CFA258CD-7725-44BF-8BE9-EBDD12777100", 9, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M139", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 10, "7B9F1BCE-7B9B-4D53-A485-E6CB834AA0E5", 10, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M260", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "Proficient", "2011-12" ]
+, [ 11, "5BB4888C-456A-44E5-8FC7-4F4409444706", 11, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M280", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 12, "C49D61B5-B616-485A-9EA1-13DB537C3382", 12, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M282", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 13, "FD12EC83-6C6B-4A17-9060-F1173F3990E9", 13, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M288", "89%", "84%", "53%", "6.8", "89%", "77%", "60%", "6.6", "81%", "75%", "54%", "7.4", "Proficient", "2007-08" ]
+, [ 14, "561066B4-726C-45FF-9B1F-7B56F719FC31", 14, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M294", "90%", "65%", "49%", "7.9", "90%", "77%", "61%", "7.5", "81%", "75%", "54%", "7.4", "Well Developed", "2007-08" ]
+, [ 15, "E34D7B5F-9561-4018-A525-B29445F734C7", 15, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M296", "82%", "66%", "52%", "7.3", "87%", "78%", "43%", "7.1", "76%", "71%", "48%", "7.1", "Proficient", "2009-10" ]
+, [ 16, "B675CA20-C7C0-4204-84F5-8F2016E327C9", 16, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M298", "94%", "89%", "69%", "7.5", "90%", "87%", "79%", "7", "85%", "80%", "63%", "7.5", "Well Developed", "2007-08" ]
+, [ 17, "E42AAF43-1730-4485-BFBD-424270E08D83", 17, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M300", "73%", "55%", "55%", "6.8", "61%", "61%", "47%", "6.5", "77%", "72%", "49%", "7.3", "Proficient", "2010-11" ]
+, [ 18, "F388ECAF-D9D5-43FE-A065-563CC2602C21", 18, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M303", "78%", "62%", "52%", "7.8", "77%", "65%", "43%", "6.9", "74%", "66%", "43%", "7.1", "Proficient", "2011-12" ]
+, [ 19, "DD8E283F-AB6C-4A6D-B608-1916D427A7A2", 19, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M305", "83%", "83%", "60%", "6.8", "79%", "78%", "64%", "6.3", "80%", "75%", "54%", "7.3", "Proficient", "2012-13" ]
+, [ 20, "F39F23DE-8219-49F6-81CB-A18032E06384", 20, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M308", "67%", "75%", "52%", "7.2", "75%", "68%", "59%", "6.7", "78%", "74%", "53%", "7.4", "Well Developed", "2008-09" ]
+, [ 21, "AF18B5C7-1998-4353-9F24-FE634D54520B", 21, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M316", "77%", "75%", "48%", "6.9", "80%", "71%", "64%", "6.9", "80%", "74%", "52%", "7.4", "Proficient", "2011-12" ]
+, [ 22, "B0D746E9-AFF5-4628-B8DD-23BAFED1D33D", 22, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M374", "82%", "77%", "50%", "6.9", "82%", "74%", "48%", "6.7", "82%", "76%", "54%", "7.3", "Developing", "2012-13" ]
+, [ 23, "EC91CC8D-E3CE-4FC1-BA4F-46F8EF66418E", 23, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M376", "98%", "94%", "86%", "7.9", "96%", "95%", "N/A", "7.7", "92%", "90%", "76%", "7.6", "Well Developed", "2009-10" ]
+, [ 24, "EA47DCD0-C6AE-4B9C-B2A8-38498B514DC8", 24, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M392", "83%", "86%", "N/A", "7.5", "80%", "N/A", "N/A", "7", "81%", "76%", "N/A", "7.3", "Proficient", "2011-12" ]
+, [ 25, "2B61DC16-D29B-440E-B386-DAB8D34E46BD", 25, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M393", "72%", "72%", "N/A", "7.4", "81%", "N/A", "N/A", "6.7", "76%", "70%", "N/A", "7.2", "Proficient", "2011-12" ]
+, [ 26, "1141740C-5A0F-411B-B368-41816E269025", 26, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M399", "77%", "67%", "N/A", "7.1", "65%", "N/A", "N/A", "6.5", "79%", "73%", "N/A", "7.2", "Proficient", "2011-12" ]
+, [ 27, "6E6EE990-B58B-46CE-8AEC-00A9C0E0FF58", 27, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M400", "85%", "83%", "64%", "7.4", "79%", "82%", "81%", "6.9", "85%", "81%", "67%", "7.4", "Well Developed", "2009-10" ]
+, [ 28, "49DAD05F-8A80-4838-A3A2-F3BCA733A11B", 28, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M407", "100%", "94%", "58%", "8.2", "98%", "86%", "57%", "7.8", "87%", "84%", "66%", "7.5", "Well Developed", "2012-13" ]
+, [ 29, "4D9590DA-F510-4E7A-BACE-F667B402DA66", 29, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M408", "93%", "96%", "66%", "7.2", "87%", "93%", "68%", "7.1", "94%", "93%", "79%", "7.6", "Proficient", "2009-10" ]
+, [ 30, "3841B3D8-3C2F-470E-9186-9C3A793CB6AD", 30, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M411", "100%", "99%", "96%", "8", "100%", "100%", "91%", "7.5", "95%", "95%", "84%", "7.7", "Well Developed", "2007-08" ]
+, [ 31, "60BC091B-539D-4153-ADF8-F1DDB8A19DCD", 31, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M412", "95%", "95%", "73%", "7.7", "95%", "93%", "88%", "7", "92%", "90%", "76%", "7.6", "Proficient", "2007-08" ]
+, [ 32, "7BE378A6-F29D-43DC-9BAC-6246F6584255", 32, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M413", "95%", "85%", "77%", "7.7", "97%", "83%", "63%", "7.4", "90%", "87%", "73%", "7.6", "Well Developed", "2010-11" ]
+, [ 33, "5BFD656E-7722-40AA-BF0B-1CF7B2CC634D", 33, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M414", "99%", "98%", "91%", "7.1", "99%", "100%", "86%", "7", "93%", "93%", "80%", "7.6", "Proficient", "2007-08" ]
+, [ 34, "AF2DDC44-E51D-4073-922F-4F92DA35A905", 34, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M416", "100%", "100%", "97%", "8.3", "100%", "98%", "97%", "7.8", "96%", "96%", "87%", "7.8", "Well Developed", "2008-09" ]
+, [ 35, "1FAFACB4-A4C0-450E-AEF1-D0F579BCB37D", 35, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M418", "100%", "99%", "86%", "8", "97%", "100%", "84%", "7.4", "95%", "95%", "83%", "7.7", "Well Developed", "2007-08" ]
+, [ 36, "32154616-DB4D-4E8E-B8E6-D696984FCEC0", 36, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M419", "80%", "50%", "41%", "7.2", "69%", "51%", "43%", "6.5", "74%", "66%", "45%", "7.2", "Proficient", "2012-13" ]
+, [ 37, "805042D6-964D-4BDA-BB7E-31F37AF432C7", 37, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M420", "89%", "86%", "77%", "7.5", "88%", "88%", "72%", "6.7", "85%", "82%", "67%", "7.5", "Proficient", "2009-10" ]
+, [ 38, "BF310452-848A-4A93-AF46-4856C3AE4F5E", 38, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M422", "84%", "N/A", "N/A", "7.6", "N/A", "N/A", "N/A", "7.3", "81%", "N/A", "N/A", "7.5", "Proficient", "2011-12" ]
+, [ 39, "F604A86E-986B-4BF1-8038-29B90157EA6D", 39, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M425", "75%", "68%", "43%", "7.2", "79%", "59%", "49%", "6.5", "73%", "69%", "45%", "7.2", "Proficient", "2009-10" ]
+, [ 40, "6AD7D68F-9956-438A-BFB9-D8407D04B590", 40, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M427", "61%", "N/A", "N/A", "8", "62%", "N/A", "N/A", "6.9", "81%", "N/A", "N/A", "7.8", "Developing", "2012-13" ]
+, [ 41, "1A813182-168F-4ABB-A30B-D204E159878D", 41, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M432", "N/A", "N/A", "N/A", "7.7", "N/A", "N/A", "N/A", "6.9", "N/A", "N/A", "N/A", "8.3", "Proficient", "2012-13" ]
+, [ 42, "A1F1E2FD-88A1-457D-AD90-64CFAA0944C0", 42, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M437", "74%", "N/A", "N/A", "7.3", "54%", "N/A", "N/A", "7", "79%", "N/A", "N/A", "7.3", "Developing", "2012-13" ]
+, [ 43, "B205B5CE-6528-490A-83C5-E1D4145C9EC4", 43, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M438", "81%", "N/A", "N/A", "8.1", "84%", "N/A", "N/A", "7.4", "82%", "N/A", "N/A", "7.8", "Proficient", "2012-13" ]
+, [ 44, "3C172701-3317-43C8-98C7-19FD17268E8B", 44, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M439", "100%", "97%", "83%", "7.7", "98%", "98%", "77%", "7.2", "89%", "87%", "70%", "7.5", "Well Developed", "2007-08" ]
+, [ 45, "B6E91D3E-2644-4964-90FF-62AE5FD856A7", 45, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M449", "68%", "75%", "59%", "7.3", "81%", "71%", "55%", "7.1", "77%", "72%", "51%", "7.3", "Proficient", "2011-12" ]
+, [ 46, "4ADF8A55-885B-4561-BB3E-8ED86B3FB0F5", 46, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M459", "81%", "56%", "55%", "8.4", "64%", "64%", "49%", "7.6", "81%", "68%", "47%", "7.6", "Proficient", "2011-12" ]
+, [ 47, "04AAC9AD-7F26-4635-BA1D-858ABBBC9AFC", 47, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M475", "99%", "98%", "99%", "7.7", "99%", "99%", "99%", "7.1", "97%", "97%", "89%", "7.9", "Well Developed", "2007-08" ]
+, [ 48, "F1CCF2EE-538C-489D-B14B-A13B76766BCA", 48, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M489", "83%", "75%", "77%", "7.4", "87%", "81%", "74%", "6.7", "83%", "79%", "62%", "7.4", "Well Developed", "2009-10" ]
+, [ 49, "CF6DE3B8-9878-498A-9BD6-85513A9085AE", 49, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M500", "80%", "68%", "40%", "7.6", "83%", "70%", "50%", "8.4", "68%", "57%", "35%", "7.2", "Proficient", "2011-12" ]
+, [ 50, "F35439AE-BC85-4F28-A433-86DE21C7A202", 50, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M507", "83%", "N/A", "N/A", "7.8", "81%", "N/A", "N/A", "7.7", "82%", "N/A", "N/A", "7.4", "N/A", "N/A" ]
+, [ 51, "9FF76267-55F9-40F1-A555-216A9D64AD7B", 51, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M519", "97%", "96%", "81%", "7.7", "93%", "96%", "82%", "6.7", "92%", "91%", "76%", "7.6", "Well Developed", "2012-13" ]
+, [ 52, "75E312AD-EAC1-4503-AB69-7CFF4BCAF223", 52, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M520", "56%", "51%", "43%", "6.1", "60%", "62%", "42%", "6.1", "76%", "67%", "47%", "6.9", "Developing", "2012-13" ]
+, [ 53, "419AFD48-C401-4159-BD66-CA2CF6CF4CD7", 53, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M529", "67%", "66%", "43%", "7.4", "75%", "69%", "40%", "6.8", "77%", "70%", "49%", "7", "Proficient", "2009-10" ]
+, [ 54, "FA0250F5-B7C1-430C-A2FB-70932E5B2471", 54, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M531", "100%", "96%", "61%", "6.9", "98%", "91%", "63%", "6.6", "88%", "86%", "69%", "7.5", "Well Developed", "2007-08" ]
+, [ 55, "ECE75831-E645-45DA-B322-484E23693E9B", 55, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M533", "89%", "N/A", "N/A", "8.5", "N/A", "N/A", "N/A", "N/A", "77%", "N/A", "N/A", "7.2", "N/A", "N/A" ]
+, [ 56, "AFA62ACE-9137-42B9-8599-6351F5EAE751", 56, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M534", "100%", "N/A", "N/A", "8", "N/A", "N/A", "N/A", "N/A", "85%", "N/A", "N/A", "7.4", "N/A", "N/A" ]
+, [ 57, "A2A41C49-5568-4C30-9172-AF82D941CF13", 57, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M542", "98%", "82%", "70%", "8.3", "92%", "87%", "52%", "7.2", "80%", "71%", "49%", "7.5", "Well Developed", "2007-08" ]
+, [ 58, "28D6A3E7-5A22-4684-8E53-6385096999FA", 58, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M543", "73%", "85%", "58%", "7.6", "90%", "79%", "48%", "7.3", "78%", "73%", "51%", "7.3", "Proficient", "2007-08" ]
+, [ 59, "F069CE8A-3953-48D8-95FD-84CF3DA83E1E", 59, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M545", "98%", "98%", "88%", "7.6", "96%", "93%", "95%", "7.1", "91%", "91%", "77%", "7.6", "Well Developed", "2007-08" ]
+, [ 60, "3F373126-58CC-4AA2-B567-28FCAD624017", 60, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M546", "97%", "N/A", "N/A", "8.3", "N/A", "N/A", "N/A", "N/A", "84%", "N/A", "N/A", "7.5", "N/A", "N/A" ]
+, [ 61, "BE53C9B4-15AF-42A3-8847-EEF1CDF6EFA6", 61, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M551", "90%", "71%", "71%", "7.3", "77%", "86%", "54%", "6.9", "80%", "75%", "55%", "7.3", "N/A", "N/A" ]
+, [ 62, "34EC54FB-0B52-4D77-BF8E-59C39FF8F098", 62, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M580", "71%", "72%", "55%", "7", "61%", "74%", "41%", "6.8", "76%", "70%", "47%", "7.3", "Proficient", "2010-11" ]
+, [ 63, "2BCF4E24-EF25-42B6-BF16-909F7F133D5C", 63, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M600", "91%", "91%", "66%", "7.1", "90%", "89%", "64%", "6.5", "85%", "82%", "67%", "7.4", "Well Developed", "2007-08" ]
+, [ 64, "EA673BD1-F367-434B-A071-F57BD14E43A6", 64, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M605", "N/A", "N/A", "N/A", "8.1", "N/A", "N/A", "N/A", "6.9", "N/A", "N/A", "N/A", "8.4", "Proficient", "2010-11" ]
+, [ 65, "54F79E56-F7C7-4F00-B7DA-1209DA691483", 65, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M615", "83%", "80%", "41%", "7.5", "77%", "73%", "25%", "6.9", "79%", "74%", "53%", "7.3", "Proficient", "2011-12" ]
+, [ 66, "8ABBA75E-568A-4C48-8E42-18CA8092DB0A", 66, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M630", "81%", "84%", "82%", "6.9", "89%", "82%", "51%", "6.4", "85%", "83%", "68%", "7.5", "Proficient", "2010-11" ]
+, [ 67, "AB69CBA4-CF02-43A7-BC70-61594442699C", 67, 1414617491, "399231", 1414617491, "399231", "{\n}", "02M655", "82%", "64%", "40%", "6.8", "85%", "69%", "46%", "6.2", "79%", "71%", "50%", "7.1", "Proficient", "2009-10" ]
+, [ 68, "1B8859C7-54CC-4FAE-9C91-5CD8972C5ACE", 68, 1414617491, "399231", 1414617491, "399231", "{\n}", "03M299", "74%", "75%", "40%", "7.2", "77%", "66%", "37%", "6.4", "74%", "67%", "44%", "7.1", "Proficient", "2009-10" ]
+, [ 69, "CAA943B3-D5CE-4558-A321-7A4681DE66D5", 69, 1414617491, "399231", 1414617491, "399231", "{\n}", "03M307", "77%", "61%", "40%", "7.2", "80%", "67%", "42%", "6.7", "73%", "65%", "41%", "7.1", "Proficient", "2009-10" ]
+, [ 70, "1D64AAB7-5EB9-4B60-BFF4-476A9E368AA3", 70, 1414617491, "399231", 1414617491, "399231", "{\n}", "03M402", "70%", "40%", "N/A", "6.7", "85%", "N/A", "N/A", "7.1", "71%", "60%", "N/A", "7.1", "Proficient", "2011-12" ]
+, [ 71, "292B0B1E-C9A8-4694-8AAD-CDBC9E163622", 71, 1414617491, "399231", 1414617491, "399231", "{\n}", "03M403", "82%", "53%", "N/A", "7.2", "63%", "N/A", "N/A", "6.9", "76%", "70%", "N/A", "7.2", "Developing", "2011-12" ]
+, [ 72, "39C549A6-C661-4A58-952B-B498A6C3CC01", 72, 1414617491, "399231", 1414617491, "399231", "{\n}", "03M415", "57%", "44%", "31%", "6.9", "66%", "43%", "42%", "6", "73%", "66%", "43%", "7.1", "Developing", "2012-13" ]
+, [ 73, "E0B11680-B160-42FD-A41F-D19B5F02DC7C", 73, 1414617491, "399231", 1414617491, "399231", "{\n}", "03M417", "85%", "N/A", "N/A", "7.5", "94%", "N/A", "N/A", "7.2", "87%", "N/A", "N/A", "7.6", "Proficient", "2012-13" ]
+, [ 74, "945CC51C-AC6D-4A47-A3DF-FDA78B6E5D65", 74, 1414617491, "399231", 1414617491, "399231", "{\n}", "03M479", "97%", "99%", "84%", "8.1", "99%", "98%", "89%", "7.8", "96%", "96%", "86%", "7.8", "Well Developed", "2007-08" ]
+, [ 75, "66B756B6-10DA-442B-A834-420EDF933B4E", 75, 1414617491, "399231", 1414617491, "399231", "{\n}", "03M485", "99%", "98%", "86%", "7.3", "99%", "100%", "93%", "6.8", "96%", "96%", "87%", "7.8", "Outstanding", "2007-08" ]
+, [ 76, "3D4169CC-5636-4EB7-B558-DA4B9B5C71FC", 76, 1414617491, "399231", 1414617491, "399231", "{\n}", "03M492", "76%", "74%", "41%", "7.1", "68%", "79%", "53%", "6.9", "76%", "68%", "46%", "6.9", "Well Developed", "2011-12" ]
+, [ 77, "F70BA7E0-2112-4AFF-AE7A-568EE65D0B8D", 77, 1414617491, "399231", 1414617491, "399231", "{\n}", "03M494", "77%", "64%", "51%", "6.9", "79%", "68%", "41%", "6.7", "74%", "68%", "46%", "7.2", "Developing", "2011-12" ]
+, [ 78, "03DC5D7D-1901-4E8C-951E-DE1777BE87C9", 78, 1414617491, "399231", 1414617491, "399231", "{\n}", "03M541", "94%", "91%", "89%", "7.8", "100%", "95%", "82%", "7.2", "94%", "94%", "81%", "7.6", "Proficient", "2011-12" ]
+, [ 79, "64625787-7E3D-45AC-AEC6-8DA1AEE26496", 79, 1414617491, "399231", 1414617491, "399231", "{\n}", "03M859", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "Well Developed", "2011-12" ]
+, [ 80, "F94E6B27-1398-441E-9E60-0A07D2312720", 80, 1414617491, "399231", 1414617491, "399231", "{\n}", "03M860", "89%", "65%", "59%", "7", "81%", "68%", "52%", "6.5", "73%", "63%", "39%", "7.2", "Proficient", "2011-12" ]
+, [ 81, "FC4A5BF9-90D3-4083-9B22-F5DFAF317809", 81, 1414617491, "399231", 1414617491, "399231", "{\n}", "04M372", "94%", "N/A", "N/A", "8", "N/A", "N/A", "N/A", "7.7", "73%", "N/A", "N/A", "7.1", "Well Developed", "2012-13" ]
+, [ 82, "1D676AE8-B8C1-42BA-96B1-CC12B977084E", 82, 1414617491, "399231", 1414617491, "399231", "{\n}", "04M409", "65%", "41%", "22%", "7.5", "67%", "47%", "33%", "6.7", "65%", "56%", "32%", "7.3", "Developing", "2012-13" ]
+, [ 83, "BBFD5681-F7F0-426B-9960-D222E495C767", 83, 1414617491, "399231", 1414617491, "399231", "{\n}", "04M435", "95%", "90%", "77%", "7.2", "96%", "91%", "74%", "6.6", "93%", "93%", "80%", "7.6", "Well Developed", "2009-10" ]
+, [ 84, "79EBBA93-0A99-4D40-AE4E-2DEF68EF213B", 84, 1414617491, "399231", 1414617491, "399231", "{\n}", "04M495", "76%", "76%", "51%", "8", "92%", "82%", "47%", "7.1", "84%", "79%", "59%", "7.3", "Proficient", "2007-08" ]
+, [ 85, "05EEE5F2-104A-47C3-BC7A-48C24498D081", 85, 1414617491, "399231", 1414617491, "399231", "{\n}", "04M555", "87%", "93%", "73%", "7.9", "94%", "85%", "58%", "7.2", "85%", "83%", "67%", "7.5", "Proficient", "2007-08" ]
+, [ 86, "610FDD10-3486-4419-9B57-8EE975F0D1D8", 86, 1414617491, "399231", 1414617491, "399231", "{\n}", "04M610", "95%", "100%", "91%", "8.1", "97%", "100%", "83%", "7.4", "90%", "87%", "71%", "7.6", "Proficient", "2010-11" ]
+, [ 87, "BB394E44-F96C-4C9F-AFBC-3969A580F849", 87, 1414617491, "399231", 1414617491, "399231", "{\n}", "04M680", "78%", "61%", "36%", "6.5", "84%", "63%", "29%", "6.3", "73%", "67%", "45%", "7.3", "Proficient", "2012-13" ]
+, [ 88, "ED709A51-BB0A-48FF-9E63-6E5D18F0ADC1", 88, 1414617491, "399231", 1414617491, "399231", "{\n}", "05M157", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 89, "E4EFCFD0-B362-4367-94EA-A83AD02E7089", 89, 1414617491, "399231", 1414617491, "399231", "{\n}", "05M304", "76%", "69%", "45%", "7.3", "67%", "65%", "59%", "6.7", "78%", "72%", "51%", "7.1", "Developing", "2012-13" ]
+, [ 90, "E5E986E1-C59C-4FF1-8C7E-45AAC0ED9861", 90, 1414617491, "399231", 1414617491, "399231", "{\n}", "05M362", "89%", "N/A", "N/A", "7.3", "96%", "N/A", "N/A", "7", "95%", "N/A", "N/A", "7.7", "Proficient", "2011-12" ]
+, [ 91, "4EFD5D88-3A4C-4002-9513-95ACCD7A5D85", 91, 1414617491, "399231", 1414617491, "399231", "{\n}", "05M367", "63%", "59%", "23%", "6.5", "78%", "37%", "71%", "5.6", "74%", "66%", "44%", "7.2", "Developing", "2012-13" ]
+, [ 92, "AC40B7EA-458E-4E33-9FB8-93CE73EAEF7E", 92, 1414617491, "399231", 1414617491, "399231", "{\n}", "05M369", "85%", "68%", "60%", "6.6", "78%", "75%", "57%", "5.9", "77%", "70%", "48%", "7", "Developing", "2011-12" ]
+, [ 93, "0831605C-8E3F-4A0C-87E8-B028BA6D91AA", 93, 1414617491, "399231", 1414617491, "399231", "{\n}", "05M499", "64%", "80%", "76%", "6.9", "47%", "82%", "73%", "6.2", "85%", "82%", "65%", "7.5", "Proficient", "2012-13" ]
+, [ 94, "539916FC-F20A-4E71-88C0-44DCC53F3608", 94, 1414617491, "399231", 1414617491, "399231", "{\n}", "05M670", "63%", "94%", "63%", "7.6", "75%", "90%", "65%", "6.9", "83%", "79%", "59%", "7.4", "Developing", "2012-13" ]
+, [ 95, "A606E149-41CF-44E6-B01F-A5D0FC2C659D", 95, 1414617491, "399231", 1414617491, "399231", "{\n}", "05M692", "100%", "99%", "98%", "8.2", "97%", "99%", "60%", "7.6", "97%", "96%", "88%", "7.8", "Well Developed", "2007-08" ]
+, [ 96, "4014FD74-2C27-41DD-95CF-242A6D1B9565", 96, 1414617491, "399231", 1414617491, "399231", "{\n}", "06M211", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 97, "157B6C60-638E-4D75-84B1-F6D4E2C6F9A7", 97, 1414617491, "399231", 1414617491, "399231", "{\n}", "06M293", "84%", "88%", "95%", "8.1", "88%", "95%", "N/A", "7.5", "90%", "87%", "72%", "7.6", "Well Developed", "2007-08" ]
+, [ 98, "87E9DA34-1AED-425F-93DC-F151DC0E0583", 98, 1414617491, "399231", 1414617491, "399231", "{\n}", "06M346", "64%", "58%", "45%", "8.2", "49%", "72%", "N/A", "7.1", "73%", "65%", "44%", "7.2", "Developing", "2011-12" ]
+, [ 99, "6FE773C3-99FA-4F22-840A-CF34AE906578", 99, 1414617491, "399231", 1414617491, "399231", "{\n}", "06M348", "77%", "66%", "58%", "8.2", "93%", "73%", "N/A", "7.5", "81%", "76%", "58%", "7.5", "Well Developed", "2011-12" ]
+, [ 100, "40A2B107-9B96-4BDC-AF86-24605B81C09B", 100, 1414617491, "399231", 1414617491, "399231", "{\n}", "06M423", "N/A", "N/A", "N/A", "8", "N/A", "N/A", "N/A", "6.9", "N/A", "N/A", "N/A", "8.2", "Proficient", "2011-12" ]
+, [ 101, "ABB6522D-BC34-41B6-AA2C-828CAA6A0A78", 101, 1414617491, "399231", 1414617491, "399231", "{\n}", "06M462", "76%", "64%", "42%", "7.5", "72%", "59%", "43%", "6.8", "73%", "65%", "43%", "7.2", "Well Developed", "2007-08" ]
+, [ 102, "A56A79B1-DA36-4E23-938B-248C517ECC58", 102, 1414617491, "399231", 1414617491, "399231", "{\n}", "06M463", "68%", "62%", "45%", "7.5", "62%", "64%", "37%", "6.6", "73%", "66%", "44%", "7.2", "Well Developed", "2009-10" ]
+, [ 103, "EC12CA88-19E0-4795-A5F6-3C976950A971", 103, 1414617491, "399231", 1414617491, "399231", "{\n}", "06M467", "68%", "60%", "39%", "7.1", "71%", "65%", "53%", "6.5", "73%", "66%", "44%", "7.2", "Well Developed", "2007-08" ]
+, [ 104, "E0B101E7-4E84-4C07-BA92-518624363622", 104, 1414617491, "399231", 1414617491, "399231", "{\n}", "06M468", "65%", "49%", "36%", "7.2", "67%", "57%", "41%", "6.6", "74%", "66%", "45%", "7.1", "Developing", "2011-12" ]
+, [ 105, "AAE2895A-C2B4-4374-8929-63F9195274CA", 105, 1414617491, "399231", 1414617491, "399231", "{\n}", "06M540", "73%", "73%", "65%", "8.9", "90%", "75%", "63%", "6.1", "85%", "83%", "67%", "7.4", "Developing", "2012-13" ]
+, [ 106, "8A5B3E89-5DDB-4B18-9FED-4146620BD943", 106, 1414617491, "399231", 1414617491, "399231", "{\n}", "06M552", "70%", "64%", "56%", "8.2", "46%", "76%", "52%", "7.5", "79%", "65%", "45%", "7.6", "Proficient", "2007-08" ]
+, [ 107, "0F4241E2-C02D-4C47-A8CB-EBEB71D9B740", 107, 1414617491, "399231", 1414617491, "399231", "{\n}", "07X221", "91%", "86%", "63%", "7.9", "82%", "89%", "63%", "7.1", "80%", "74%", "53%", "7.3", "Proficient", "2012-13" ]
+, [ 108, "B8D05867-4B32-4ADE-AB05-A23D46CAB839", 108, 1414617491, "399231", 1414617491, "399231", "{\n}", "07X223", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "Well Developed", "2007-08" ]
+, [ 109, "DFA45D10-1E4B-4883-B8DF-52655287B3E8", 109, 1414617491, "399231", 1414617491, "399231", "{\n}", "07X259", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 110, "CB46FF12-469E-4A88-A84F-E2C75D5D31B6", 110, 1414617491, "399231", 1414617491, "399231", "{\n}", "07X334", "55%", "31%", "28%", "7.7", "86%", "47%", "41%", "7.1", "79%", "64%", "43%", "7.6", "Proficient", "2010-11" ]
+, [ 111, "2289DC92-2097-4627-BD51-CFA4D08A9423", 111, 1414617491, "399231", 1414617491, "399231", "{\n}", "07X427", "78%", "69%", "53%", "8.3", "86%", "60%", "60%", "7.5", "73%", "65%", "42%", "7.2", "Proficient", "2009-10" ]
+, [ 112, "C080CEE5-E007-4840-B73E-2DB033A940C6", 112, 1414617491, "399231", 1414617491, "399231", "{\n}", "07X473", "79%", "51%", "42%", "7.5", "79%", "65%", "39%", "7.1", "75%", "68%", "46%", "7.3", "Proficient", "2010-11" ]
+, [ 113, "4D7FCBED-C987-4D4E-A189-BFD8417C97BF", 113, 1414617491, "399231", 1414617491, "399231", "{\n}", "07X495", "99%", "85%", "69%", "7.9", "99%", "89%", "71%", "6.4", "88%", "86%", "69%", "7.5", "Proficient", "2009-10" ]
+, [ 114, "0098C6D3-04D8-4BB8-86AB-FD34AF2C2A8C", 114, 1414617491, "399231", 1414617491, "399231", "{\n}", "07X500", "82%", "75%", "76%", "7.2", "77%", "79%", "74%", "6.7", "84%", "80%", "64%", "7.4", "Proficient", "2009-10" ]
+, [ 115, "05CD9FAB-87F9-4F91-B8B2-79E5821489A2", 115, 1414617491, "399231", 1414617491, "399231", "{\n}", "07X520", "62%", "48%", "34%", "6.8", "65%", "53%", "57%", "6.1", "63%", "52%", "31%", "7.2", "Developing", "2012-13" ]
+, [ 116, "876B2A96-EB81-4C4A-9EA5-76CDE690BA23", 116, 1414617491, "399231", 1414617491, "399231", "{\n}", "07X522", "61%", "N/A", "N/A", "7.9", "72%", "N/A", "N/A", "7.3", "67%", "N/A", "N/A", "7.2", "N/A", "N/A" ]
+, [ 117, "840B13A1-1E29-4BB2-9069-29EB98F163C4", 117, 1414617491, "399231", 1414617491, "399231", "{\n}", "07X527", "91%", "62%", "55%", "7.3", "77%", "65%", "37%", "6.5", "73%", "65%", "41%", "7.2", "Proficient", "2009-10" ]
+, [ 118, "A32D884F-6FAD-48A7-A5AC-76D475D674D3", 118, 1414617491, "399231", 1414617491, "399231", "{\n}", "07X547", "66%", "54%", "25%", "7.4", "69%", "58%", "20%", "6.6", "66%", "56%", "32%", "7.2", "Developing", "2011-12" ]
+, [ 119, "5918F781-99F5-456F-9E76-5A8E017E92A7", 119, 1414617491, "399231", 1414617491, "399231", "{\n}", "07X548", "85%", "68%", "48%", "7.6", "87%", "73%", "55%", "6.9", "80%", "75%", "55%", "7.4", "Proficient", "2007-08" ]
+, [ 120, "C5DCAE99-5CA0-4971-997D-C2876A0D5BEF", 120, 1414617491, "399231", 1414617491, "399231", "{\n}", "07X551", "68%", "87%", "65%", "6.9", "65%", "78%", "66%", "6.5", "73%", "68%", "44%", "7.1", "Proficient", "2011-12" ]
+, [ 121, "639E1437-98BB-4120-9130-1EB1DD671442", 121, 1414617491, "399231", 1414617491, "399231", "{\n}", "07X600", "75%", "51%", "23%", "6.8", "77%", "56%", "15%", "6.2", "71%", "62%", "38%", "7.2", "Developing", "2012-13" ]
+, [ 122, "B34818E9-BCD4-41C2-AD75-43A5EFFA9463", 122, 1414617491, "399231", 1414617491, "399231", "{\n}", "07X670", "68%", "69%", "54%", "7.2", "57%", "74%", "63%", "6.2", "72%", "65%", "42%", "7.1", "Proficient", "2009-10" ]
+, [ 123, "2666F381-412F-4167-8A6A-BD1360B7BDEA", 123, 1414617491, "399231", 1414617491, "399231", "{\n}", "08X269", "75%", "70%", "N/A", "7.4", "43%", "N/A", "N/A", "7", "72%", "67%", "N/A", "7.2", "Developing", "2011-12" ]
+, [ 124, "BCF0E37A-0DC7-4E2C-A61D-F9CC4004AEDD", 124, 1414617491, "399231", 1414617491, "399231", "{\n}", "08X282", "63%", "66%", "43%", "5.3", "61%", "68%", "74%", "5.7", "74%", "67%", "46%", "7.1", "Developing", "2011-12" ]
+, [ 125, "50DF0370-E291-4398-811C-327E1F9AE04F", 125, 1414617491, "399231", 1414617491, "399231", "{\n}", "08X293", "80%", "80%", "41%", "7.1", "74%", "66%", "39%", "6.6", "74%", "67%", "47%", "7.2", "Proficient", "2012-13" ]
+, [ 126, "7D1FC6AF-450C-4E88-8FC4-5EEF9AB567B2", 126, 1414617491, "399231", 1414617491, "399231", "{\n}", "08X305", "82%", "61%", "27%", "7.4", "71%", "61%", "38%", "7", "63%", "53%", "31%", "7.2", "Proficient", "2010-11" ]
+, [ 127, "87C90568-EBF4-4228-B3CF-003D09B51173", 127, 1414617491, "399231", 1414617491, "399231", "{\n}", "08X312", "89%", "66%", "34%", "7.2", "86%", "61%", "28%", "6.4", "74%", "67%", "44%", "7.2", "Well Developed", "2007-08" ]
+, [ 128, "6E33C402-FF0D-44E1-987A-81952B13C627", 128, 1414617491, "399231", 1414617491, "399231", "{\n}", "08X320", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 129, "FC9FABD4-F5D7-4CD2-8798-ADA72A82A1CA", 129, 1414617491, "399231", 1414617491, "399231", "{\n}", "08X332", "74%", "51%", "27%", "7.4", "66%", "52%", "37%", "6.7", "68%", "56%", "33%", "7.1", "Developing", "2012-13" ]
+, [ 130, "FFD9188D-01BA-4533-BCD3-D436AC75714F", 130, 1414617491, "399231", 1414617491, "399231", "{\n}", "08X348", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 131, "6864F732-CBE3-43C1-B9C3-B1758D16F2A0", 131, 1414617491, "399231", 1414617491, "399231", "{\n}", "08X349", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 132, "7A1CE0C4-FC3C-4760-A67B-EFBA840D05BF", 132, 1414617491, "399231", 1414617491, "399231", "{\n}", "08X367", "76%", "N/A", "N/A", "6.5", "74%", "N/A", "N/A", "6.3", "73%", "N/A", "N/A", "7.2", "Developing", "2011-12" ]
+, [ 133, "978BA312-0BAC-44C0-9CFF-2B0A0871A4A9", 133, 1414617491, "399231", 1414617491, "399231", "{\n}", "08X376", "62%", "N/A", "N/A", "6.4", "49%", "N/A", "N/A", "6.3", "68%", "N/A", "N/A", "7.2", "Developing", "2012-13" ]
+, [ 134, "9A6788BC-0A12-4681-9D23-BEFC59918651", 134, 1414617491, "399231", 1414617491, "399231", "{\n}", "08X405", "55%", "54%", "33%", "6.3", "47%", "50%", "34%", "6.3", "73%", "65%", "41%", "7.1", "Proficient", "2012-13" ]
+, [ 135, "B426D1C8-C1AE-47EF-B725-DBC494D17837", 135, 1414617491, "399231", 1414617491, "399231", "{\n}", "08X432", "84%", "N/A", "N/A", "7.6", "90%", "N/A", "N/A", "6.6", "80%", "N/A", "N/A", "7.7", "Proficient", "2012-13" ]
+, [ 136, "C1C801EB-FBA4-41E5-B5BA-656BA201520B", 136, 1414617491, "399231", 1414617491, "399231", "{\n}", "08X452", "79%", "52%", "45%", "7.2", "73%", "64%", "40%", "6.9", "66%", "57%", "32%", "7.3", "Developing", "2012-13" ]
+, [ 137, "86096AE5-72F9-40E8-AB6C-3AECC34BA0E1", 137, 1414617491, "399231", 1414617491, "399231", "{\n}", "08X519", "75%", "43%", "32%", "7", "81%", "66%", "35%", "6.2", "69%", "60%", "38%", "7.1", "Proficient", "2009-10" ]
+, [ 138, "533290B0-EEEE-4E70-9280-6F1BC7BC9747", 138, 1414617491, "399231", 1414617491, "399231", "{\n}", "08X530", "80%", "42%", "33%", "7.7", "71%", "49%", "32%", "6.6", "64%", "54%", "31%", "7.2", "Developing", "2010-11" ]
+, [ 139, "DCB28656-BB59-455D-874B-7C289F2BB21A", 139, 1414617491, "399231", 1414617491, "399231", "{\n}", "08X558", "76%", "N/A", "N/A", "6.4", "N/A", "N/A", "N/A", "N/A", "72%", "N/A", "N/A", "7.1", "N/A", "N/A" ]
+, [ 140, "ACBE545F-EF90-4E04-B2F1-EE7FF98C2BB6", 140, 1414617491, "399231", 1414617491, "399231", "{\n}", "08X559", "77%", "N/A", "N/A", "7.4", "N/A", "N/A", "N/A", "N/A", "73%", "N/A", "N/A", "7.1", "N/A", "N/A" ]
+, [ 141, "D200EC57-8C16-430A-932E-C8CABA509781", 141, 1414617491, "399231", 1414617491, "399231", "{\n}", "08X561", "82%", "N/A", "N/A", "7.8", "N/A", "N/A", "N/A", "N/A", "63%", "N/A", "N/A", "7.1", "N/A", "N/A" ]
+, [ 142, "7403E72F-43D7-4FE7-B46D-61B196383A4D", 142, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X227", "69%", "57%", "34%", "8.3", "80%", "56%", "37%", "7.4", "66%", "55%", "32%", "7.2", "Proficient", "2009-10" ]
+, [ 143, "933A6FA5-B617-487B-9D13-597E0D0F3EDC", 143, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X231", "69%", "68%", "58%", "7.3", "67%", "73%", "53%", "6.7", "73%", "67%", "44%", "7.2", "Proficient", "2011-12" ]
+, [ 144, "8CFB9676-B262-4E7E-9BD9-6BA9A921F816", 144, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X241", "84%", "89%", "92%", "7.4", "77%", "94%", "86%", "6.6", "81%", "77%", "59%", "7.4", "Well Developed", "2012-13" ]
+, [ 145, "5914EC3B-7FB3-429C-B9EA-84010810356C", 145, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X250", "77%", "82%", "46%", "8", "74%", "82%", "50%", "6.8", "76%", "71%", "46%", "7.2", "Proficient", "2012-13" ]
+, [ 146, "FA13D75B-B593-421D-99AA-D7F4A73C0C0D", 146, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X252", "83%", "85%", "65%", "7.6", "84%", "82%", "68%", "6.8", "74%", "70%", "47%", "7.1", "Proficient", "2012-13" ]
+, [ 147, "E1E7E726-F5BA-4E39-ABE2-D88EF4043A6E", 147, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X260", "92%", "92%", "78%", "8", "88%", "88%", "66%", "7.4", "86%", "82%", "68%", "7.5", "Well Developed", "2009-10" ]
+, [ 148, "31A0631A-FBDD-4F59-A0D2-F8736ECD00AB", 148, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X263", "89%", "65%", "41%", "8", "74%", "65%", "40%", "7.2", "75%", "70%", "46%", "7.1", "Proficient", "2012-13" ]
+, [ 149, "732C1FDC-4C97-45B8-8085-5785A852C8BB", 149, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X276", "51%", "56%", "28%", "7.6", "50%", "45%", "39%", "6.9", "62%", "51%", "31%", "7.2", "Proficient", "2012-13" ]
+, [ 150, "1CEE198B-0AD2-421F-B09D-6C1D4E760B3B", 150, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X297", "71%", "63%", "34%", "7.2", "80%", "64%", "30%", "6.5", "69%", "59%", "36%", "7.2", "Proficient", "2010-11" ]
+, [ 151, "B539AF3D-2A44-4356-8D5A-2C3F8E920936", 151, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X324", "94%", "94%", "N/A", "7.1", "85%", "N/A", "N/A", "6.6", "83%", "79%", "N/A", "7.4", "Proficient", "2012-13" ]
+, [ 152, "EDD05A9A-5B6C-425F-A29B-4E7511E35287", 152, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X327", "90%", "N/A", "N/A", "7.7", "N/A", "N/A", "N/A", "6.8", "83%", "N/A", "N/A", "7.5", "Well Developed", "2007-08" ]
+, [ 153, "29871C9E-D246-4E69-818E-EAB670C71951", 153, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X329", "77%", "33%", "37%", "7.3", "74%", "54%", "34%", "6.7", "68%", "56%", "33%", "7.1", "Proficient", "2011-12" ]
+, [ 154, "B7195F0C-A95E-4014-9AF3-0408734BE027", 154, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X350", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 155, "F4A9CDE2-35C1-459F-85E6-16A48EF51F3C", 155, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X365", "98%", "86%", "42%", "7.8", "96%", "82%", "31%", "7", "80%", "70%", "49%", "7.6", "Well Developed", "2012-13" ]
+, [ 156, "41BA68D8-73DD-4D64-86D5-037FF0D991EA", 156, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X403", "88%", "50%", "45%", "7.8", "90%", "63%", "41%", "7.2", "79%", "66%", "45%", "7.6", "Well Developed", "2007-08" ]
+, [ 157, "2B81742E-4954-4BF9-B0F0-A4515721A039", 157, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X404", "73%", "62%", "27%", "6.9", "77%", "57%", "29%", "7", "64%", "53%", "32%", "7.2", "Proficient", "2011-12" ]
+, [ 158, "6D6D8CE9-7D7A-4F65-B68E-ABFBBC1D3C2F", 158, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X412", "70%", "43%", "34%", "7.1", "71%", "43%", "30%", "6.4", "65%", "54%", "31%", "7.2", "Developing", "2012-13" ]
+, [ 159, "B2D5D065-29C6-46E9-88EA-328190704567", 159, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X413", "94%", "88%", "84%", "7.1", "76%", "93%", "57%", "6.2", "87%", "86%", "69%", "7.5", "Proficient", "2010-11" ]
+, [ 160, "FC51679D-0C88-4F55-AB1F-4CAA310C8617", 160, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X505", "71%", "84%", "66%", "6.5", "73%", "74%", "62%", "6.5", "82%", "77%", "58%", "7.3", "Proficient", "2012-13" ]
+, [ 161, "D6C1F745-7267-4E43-9431-E620584D6E1F", 161, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X517", "66%", "69%", "49%", "7.1", "68%", "79%", "52%", "7", "72%", "64%", "42%", "7", "Proficient", "2012-13" ]
+, [ 162, "A056452F-A4DE-4645-A2EA-D6076E3DE166", 162, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X525", "74%", "57%", "48%", "7", "64%", "70%", "42%", "6.6", "72%", "64%", "40%", "7.1", "Proficient", "2009-10" ]
+, [ 163, "4AF870C2-8D04-44B8-BB60-054CFEFAF5FB", 163, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X543", "87%", "49%", "41%", "6.8", "71%", "71%", "33%", "6.4", "73%", "65%", "42%", "7.3", "Well Developed", "2007-08" ]
+, [ 164, "21CE8534-33EC-4402-B0EE-316AA0B5DD1C", 164, 1414617491, "399231", 1414617491, "399231", "{\n}", "09X564", "94%", "N/A", "N/A", "8.3", "N/A", "N/A", "N/A", "N/A", "81%", "N/A", "N/A", "7.8", "N/A", "N/A" ]
+, [ 165, "A8023DC9-5F07-4EB1-954F-386530CAEC2B", 165, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X141", "78%", "78%", "67%", "6.7", "78%", "84%", "82%", "6.5", "83%", "80%", "64%", "7.5", "Proficient", "2010-11" ]
+, [ 166, "D4E77C93-0FAC-4A25-B678-AA5FCF4984C9", 166, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X213", "80%", "74%", "44%", "6.8", "70%", "70%", "46%", "6.4", "74%", "66%", "42%", "7.3", "Proficient", "2009-10" ]
+, [ 167, "7A5B94FD-AAA3-4B82-B1A7-28DB67195A2B", 167, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X225", "84%", "83%", "67%", "7.3", "85%", "83%", "78%", "6.7", "81%", "77%", "57%", "7.4", "Proficient", "2012-13" ]
+, [ 168, "4BC15307-2132-4140-8FAE-29FA707CD7C1", 168, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X237", "84%", "67%", "66%", "6.5", "85%", "78%", "40%", "6.1", "76%", "71%", "49%", "7.1", "Proficient", "2012-13" ]
+, [ 169, "E867F0AC-9876-4F13-ACB1-09508F32E60C", 169, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X243", "75%", "74%", "38%", "6.8", "76%", "67%", "46%", "6.3", "75%", "68%", "46%", "7.2", "Developing", "2012-13" ]
+, [ 170, "3B145C9F-8CC3-45B5-B563-812BEE6354FE", 170, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X264", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 171, "53D6DA51-A9D4-4D59-85DB-E1E3B56A3109", 171, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X268", "78%", "48%", "47%", "7.8", "81%", "48%", "31%", "7.2", "80%", "64%", "44%", "7.6", "Developing", "2012-13" ]
+, [ 172, "01D476B2-8788-460D-9F4E-FD91239E5B88", 172, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X284", "62%", "66%", "47%", "7.1", "68%", "72%", "44%", "6.6", "73%", "67%", "43%", "7.2", "Proficient", "2009-10" ]
+, [ 173, "FA62102B-BCCF-42BD-A6A5-2A571BCA791D", 173, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X342", "86%", "65%", "38%", "8.3", "72%", "71%", "34%", "7.3", "80%", "69%", "48%", "7.5", "Developing", "2012-13" ]
+, [ 174, "030F1670-67B1-4D3C-A3D1-48FC258E0338", 174, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X351", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 175, "5D17ED19-E5F4-477E-A38D-C71BEF089F31", 175, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X353", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 176, "4DB361BC-62DD-4387-94BA-4D8C29CF7185", 176, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X368", "69%", "69%", "68%", "7.2", "70%", "84%", "59%", "6.8", "83%", "80%", "63%", "7.3", "Well Developed", "2009-10" ]
+, [ 177, "9C23AFDB-E2F6-4649-8975-D2DFF79B8E07", 177, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X374", "86%", "85%", "61%", "7.9", "90%", "75%", "79%", "7.4", "77%", "69%", "49%", "7", "Well Developed", "2011-12" ]
+, [ 178, "6D6D5895-E64E-4950-AE5D-7B813359048B", 178, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X433", "73%", "68%", "30%", "6.6", "73%", "53%", "53%", "6.2", "69%", "60%", "37%", "7", "Proficient", "2009-10" ]
+, [ 179, "FACFC639-14F0-4B94-BB80-572F6604E419", 179, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X434", "86%", "65%", "34%", "6.7", "81%", "66%", "47%", "6.3", "75%", "69%", "48%", "7", "Proficient", "2007-08" ]
+, [ 180, "BD55933B-8E0B-4534-BEE4-89F1D8A7896B", 180, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X437", "88%", "85%", "33%", "7.9", "85%", "76%", "32%", "7.7", "74%", "70%", "45%", "7.1", "Developing", "2011-12" ]
+, [ 181, "8C1F4225-D25B-4373-8ECD-41A28EBA744D", 181, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X438", "78%", "38%", "31%", "7", "69%", "53%", "38%", "5.6", "67%", "56%", "32%", "7.2", "Developing", "2012-13" ]
+, [ 182, "18C11153-F774-42F7-AAA3-00E679C3773B", 182, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X439", "78%", "68%", "45%", "7.4", "61%", "59%", "30%", "6.6", "71%", "63%", "38%", "7.1", "Proficient", "2011-12" ]
+, [ 183, "7C36410E-DB0C-40D8-B866-357EDA5457C8", 183, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X440", "53%", "55%", "34%", "6.3", "51%", "50%", "40%", "5.8", "73%", "66%", "44%", "7.1", "Underdeveloped", "2012-13" ]
+, [ 184, "4E271ECF-245A-4138-8144-CFEB299DE491", 184, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X442", "78%", "87%", "54%", "7.2", "78%", "82%", "62%", "6.7", "86%", "83%", "66%", "7.5", "Well Developed", "2009-10" ]
+, [ 185, "0A26B594-0D20-4DDA-8AF4-DCBCF718060B", 185, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X445", "100%", "100%", "100%", "7.4", "100%", "100%", "100%", "6.9", "97%", "97%", "90%", "7.8", "Well Developed", "2007-08" ]
+, [ 186, "413200BA-0D05-41A2-AC1A-7D7DA467EFA5", 186, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X477", "92%", "90%", "74%", "7.7", "93%", "92%", "63%", "7.1", "80%", "78%", "61%", "7.4", "Outstanding", "2007-08" ]
+, [ 187, "2E75BA51-5CD7-4216-849A-054BA999BA62", 187, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X524", "43%", "N/A", "N/A", "7.5", "74%", "N/A", "N/A", "7", "81%", "N/A", "N/A", "7.8", "N/A", "N/A" ]
+, [ 188, "989982F6-5082-467E-8065-A4B5A826D6C2", 188, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X546", "74%", "74%", "50%", "8.3", "71%", "73%", "41%", "6.7", "74%", "69%", "46%", "7.1", "Proficient", "2009-10" ]
+, [ 189, "1DD6BB2A-FAA3-458A-9C8D-E55A5F6D6511", 189, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X549", "76%", "57%", "37%", "6.9", "75%", "54%", "45%", "6.6", "72%", "63%", "39%", "7.1", "Well Developed", "2011-12" ]
+, [ 190, "8CA298EE-2F10-4ED8-AE6D-1C81F6F5746F", 190, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X565", "89%", "N/A", "N/A", "8.1", "N/A", "N/A", "N/A", "N/A", "72%", "N/A", "N/A", "7.2", "N/A", "N/A" ]
+, [ 191, "0EFB63B9-5B01-4FDA-AD0C-798F7A8DCB2E", 191, 1414617491, "399231", 1414617491, "399231", "{\n}", "10X696", "98%", "100%", "99%", "8.1", "100%", "100%", "99%", "7.9", "97%", "97%", "89%", "7.8", "Well Developed", "2007-08" ]
+, [ 192, "4A4F6F83-4398-404B-8220-702317F69A35", 192, 1414617491, "399231", 1414617491, "399231", "{\n}", "11X249", "78%", "98%", "67%", "6.3", "80%", "97%", "74%", "6.4", "78%", "71%", "52%", "7.1", "Proficient", "2007-08" ]
+, [ 193, "238B38EA-1F9C-43F3-9143-5210996DC429", 193, 1414617491, "399231", 1414617491, "399231", "{\n}", "11X253", "81%", "54%", "27%", "7.2", "71%", "57%", "33%", "6.5", "72%", "65%", "41%", "7.1", "Proficient", "2012-13" ]
+, [ 194, "162AD03C-88F5-44E2-96AC-2EA7A96A6D62", 194, 1414617491, "399231", 1414617491, "399231", "{\n}", "11X265", "81%", "66%", "39%", "6.8", "87%", "58%", "42%", "6.6", "76%", "70%", "48%", "7.1", "Proficient", "2012-13" ]
+, [ 195, "3133CEF4-E2B4-4C85-9DF0-B0174A10CF6F", 195, 1414617491, "399231", 1414617491, "399231", "{\n}", "11X270", "80%", "74%", "34%", "6.6", "81%", "70%", "41%", "5.9", "72%", "63%", "42%", "7.2", "Developing", "2011-12" ]
+, [ 196, "43431874-EB35-45D2-8914-5003998271F0", 196, 1414617491, "399231", 1414617491, "399231", "{\n}", "11X275", "86%", "85%", "67%", "7.8", "89%", "82%", "52%", "6.9", "75%", "70%", "46%", "7.2", "Proficient", "2007-08" ]
+, [ 197, "7226D193-A2F1-49DE-9358-F2B403ADE903", 197, 1414617491, "399231", 1414617491, "399231", "{\n}", "11X288", "77%", "89%", "81%", "7.8", "82%", "90%", "61%", "7.3", "83%", "79%", "65%", "7.5", "Proficient", "2010-11" ]
+, [ 198, "41500E70-ED2D-4D37-81CF-240C0E689D5A", 198, 1414617491, "399231", 1414617491, "399231", "{\n}", "11X290", "76%", "66%", "67%", "6.6", "78%", "74%", "62%", "5.9", "73%", "65%", "40%", "7.1", "Proficient", "2007-08" ]
+, [ 199, "CD647A79-AEAD-4EE0-873A-91993FBC6AFC", 199, 1414617491, "399231", 1414617491, "399231", "{\n}", "11X299", "80%", "63%", "45%", "6.3", "82%", "69%", "41%", "6.2", "75%", "70%", "46%", "7.1", "Developing", "2011-12" ]
+, [ 200, "8009605D-0D31-4B25-AC15-8F845A847236", 200, 1414617491, "399231", 1414617491, "399231", "{\n}", "11X418", "66%", "58%", "35%", "7.5", "57%", "62%", "37%", "6.3", "74%", "67%", "43%", "7.2", "Developing", "2012-13" ]
+, [ 201, "8E935492-2C01-47D8-BF41-952CC7DCE84F", 201, 1414617491, "399231", 1414617491, "399231", "{\n}", "11X455", "67%", "58%", "34%", "7.1", "61%", "65%", "32%", "6.7", "67%", "58%", "35%", "7.2", "Proficient", "2009-10" ]
+, [ 202, "15EC68CB-0B9C-4014-87E4-6BD8257DA804", 202, 1414617491, "399231", 1414617491, "399231", "{\n}", "11X508", "85%", "N/A", "N/A", "7", "87%", "N/A", "N/A", "6.4", "76%", "N/A", "N/A", "7.1", "N/A", "N/A" ]
+, [ 203, "36F208AE-3F53-420B-8E67-AA4ADC51F16C", 203, 1414617491, "399231", 1414617491, "399231", "{\n}", "11X509", "61%", "N/A", "N/A", "8.2", "81%", "N/A", "N/A", "8.3", "81%", "N/A", "N/A", "7.8", "N/A", "N/A" ]
+, [ 204, "3024B756-50ED-4C9F-8A5E-9AD64BAF03A9", 204, 1414617491, "399231", 1414617491, "399231", "{\n}", "11X513", "85%", "84%", "57%", "7.7", "91%", "74%", "50%", "7.1", "78%", "65%", "45%", "7.6", "Well Developed", "2007-08" ]
+, [ 205, "D93AC6AE-6BF7-437D-9A3D-B443CB572FDF", 205, 1414617491, "399231", 1414617491, "399231", "{\n}", "11X514", "74%", "57%", "24%", "7.1", "70%", "50%", "28%", "6.5", "68%", "58%", "36%", "7.2", "Proficient", "2009-10" ]
+, [ 206, "11EBA1D3-BF33-4041-88FB-B4115C0DAB72", 206, 1414617491, "399231", 1414617491, "399231", "{\n}", "11X542", "81%", "95%", "83%", "7.4", "79%", "91%", "83%", "7", "80%", "75%", "56%", "7.3", "Proficient", "2010-11" ]
+, [ 207, "E143B82B-F6E8-4585-AD57-E1684C016F40", 207, 1414617491, "399231", 1414617491, "399231", "{\n}", "11X544", "83%", "71%", "57%", "6.6", "80%", "72%", "49%", "6.4", "71%", "63%", "40%", "7.2", "Well Developed", "2007-08" ]
+, [ 208, "952E468C-37FE-4477-B008-871CF1067FB0", 208, 1414617491, "399231", 1414617491, "399231", "{\n}", "11X545", "66%", "74%", "58%", "6.1", "76%", "75%", "56%", "5.9", "71%", "64%", "39%", "7.2", "Developing", "2011-12" ]
+, [ 209, "4A567FAC-9216-46E0-BDD7-F56D512843B0", 209, 1414617491, "399231", 1414617491, "399231", "{\n}", "12X242", "79%", "N/A", "N/A", "7.9", "68%", "N/A", "N/A", "7.1", "79%", "N/A", "N/A", "7.3", "Well Developed", "2007-08" ]
+, [ 210, "0E21A923-9EDE-432E-90C8-4D17FF5EE85D", 210, 1414617491, "399231", 1414617491, "399231", "{\n}", "12X248", "77%", "71%", "42%", "7.6", "87%", "75%", "53%", "7.2", "70%", "62%", "39%", "7.2", "Proficient", "2008-09" ]
+, [ 211, "EF805EDB-B31D-4891-8103-8FDC6888D0F0", 211, 1414617491, "399231", 1414617491, "399231", "{\n}", "12X251", "78%", "55%", "41%", "7.5", "68%", "63%", "42%", "6.9", "66%", "55%", "33%", "7.2", "Proficient", "2012-13" ]
+, [ 212, "8E5313AD-E678-4CFE-A79F-ECD3866AA5EE", 212, 1414617491, "399231", 1414617491, "399231", "{\n}", "12X267", "87%", "73%", "63%", "8.6", "81%", "77%", "70%", "8.8", "74%", "68%", "44%", "7.2", "Proficient", "2008-09" ]
+, [ 213, "AA8ECF00-9122-41A3-B781-CBA166730D36", 213, 1414617491, "399231", 1414617491, "399231", "{\n}", "12X271", "77%", "70%", "46%", "7.5", "72%", "75%", "42%", "6.9", "70%", "61%", "38%", "7.2", "Proficient", "2009-10" ]
+, [ 214, "4116CCA2-6706-4920-931B-582A7736B5A9", 214, 1414617491, "399231", 1414617491, "399231", "{\n}", "12X278", "59%", "43%", "23%", "9.2", "50%", "42%", "21%", "8.7", "66%", "54%", "31%", "7.1", "Underdeveloped", "2012-13" ]
+, [ 215, "85B59C3F-FE6A-4900-9FE4-B1AA8682AB65", 215, 1414617491, "399231", 1414617491, "399231", "{\n}", "12X372", "85%", "N/A", "N/A", "7.1", "69%", "N/A", "N/A", "6.8", "77%", "N/A", "N/A", "7.3", "Developing", "2011-12" ]
+, [ 216, "A5D8D15B-6E2A-48C8-9CE2-783331270BD3", 216, 1414617491, "399231", 1414617491, "399231", "{\n}", "12X388", "91%", "68%", "31%", "8.7", "94%", "58%", "N/A", "8", "79%", "64%", "43%", "7.6", "Well Developed", "2009-10" ]
+, [ 217, "A76CF828-E555-460A-85FB-0BD7E851F828", 217, 1414617491, "399231", 1414617491, "399231", "{\n}", "12X478", "98%", "97%", "N/A", "7.9", "99%", "N/A", "N/A", "7.8", "86%", "84%", "N/A", "7.5", "Well Developed", "2011-12" ]
+, [ 218, "65480FE2-854D-44A8-873D-80660DD196EA", 218, 1414617491, "399231", 1414617491, "399231", "{\n}", "12X479", "41%", "60%", "N/A", "7.4", "63%", "N/A", "N/A", "6.5", "66%", "56%", "N/A", "7.2", "Developing", "2011-12" ]
+, [ 219, "272A23BD-65C6-47ED-BAE4-2364B19BC81D", 219, 1414617491, "399231", 1414617491, "399231", "{\n}", "12X511", "91%", "N/A", "N/A", "7.3", "80%", "N/A", "N/A", "6.6", "73%", "N/A", "N/A", "7.1", "N/A", "N/A" ]
+, [ 220, "39313359-C13D-4362-94FA-7DD8A762D8A4", 220, 1414617491, "399231", 1414617491, "399231", "{\n}", "12X521", "82%", "N/A", "N/A", "7.6", "79%", "N/A", "N/A", "7.6", "71%", "N/A", "N/A", "7.1", "N/A", "N/A" ]
+, [ 221, "E06499D5-8142-4D70-9365-2B13AA80E7C7", 221, 1414617491, "399231", 1414617491, "399231", "{\n}", "12X550", "70%", "47%", "29%", "8", "76%", "58%", "43%", "7.1", "80%", "64%", "44%", "7.6", "Developing", "2011-12" ]
+, [ 222, "5AA86AEA-85E5-43F6-9511-AE6608AD95D8", 222, 1414617491, "399231", 1414617491, "399231", "{\n}", "12X682", "74%", "66%", "44%", "7.4", "72%", "59%", "31%", "6.8", "70%", "62%", "38%", "7.1", "Well Developed", "2007-08" ]
+, [ 223, "F9F4B28C-DFA8-419C-AF2D-EF4E407CA716", 223, 1414617491, "399231", 1414617491, "399231", "{\n}", "12X684", "65%", "65%", "38%", "6.8", "69%", "57%", "29%", "6.3", "72%", "65%", "42%", "7.1", "Proficient", "2009-10" ]
+, [ 224, "FF404EF3-9E1F-40F7-B800-48F270032BAC", 224, 1414617491, "399231", 1414617491, "399231", "{\n}", "12X692", "61%", "45%", "27%", "6.4", "66%", "42%", "25%", "6.3", "68%", "57%", "34%", "7.1", "Proficient", "2009-10" ]
+, [ 225, "522538B5-BB92-4643-B8F0-3A7194F85FBA", 225, 1414617491, "399231", 1414617491, "399231", "{\n}", "13K265", "83%", "63%", "44%", "7.2", "75%", "80%", "51%", "6.7", "80%", "75%", "54%", "7.3", "Proficient", "2009-10" ]
+, [ 226, "0A8202EE-CE1B-46B4-A730-64E3F55D020D", 226, 1414617491, "399231", 1414617491, "399231", "{\n}", "13K350", "88%", "49%", "47%", "7.7", "70%", "61%", "60%", "6.9", "74%", "67%", "44%", "7.2", "Proficient", "2011-12" ]
+, [ 227, "AF1E1620-5B7D-4894-B152-55C31120BB90", 227, 1414617491, "399231", 1414617491, "399231", "{\n}", "13K412", "81%", "70%", "44%", "7.3", "88%", "65%", "46%", "7", "73%", "67%", "45%", "7.2", "Proficient", "2011-12" ]
+, [ 228, "006B53CE-EEA2-403D-861B-22A8A1FEA813", 228, 1414617491, "399231", 1414617491, "399231", "{\n}", "13K419", "87%", "69%", "51%", "5.5", "84%", "74%", "57%", "6", "77%", "70%", "49%", "7", "Proficient", "2009-10" ]
+, [ 229, "071B474C-B63F-4814-A278-E32F31A79929", 229, 1414617491, "399231", 1414617491, "399231", "{\n}", "13K430", "99%", "98%", "83%", "7.1", "97%", "96%", "95%", "6.7", "97%", "97%", "90%", "7.8", "Proficient", "2011-12" ]
+, [ 230, "61671F6F-1143-446B-9C11-65C242E611C2", 230, 1414617491, "399231", 1414617491, "399231", "{\n}", "13K439", "98%", "85%", "64%", "8.6", "89%", "82%", "54%", "8.2", "80%", "67%", "46%", "7.6", "Well Developed", "2007-08" ]
+, [ 231, "EA918181-5330-4EA8-9C82-ECB7E43F8EBB", 231, 1414617491, "399231", 1414617491, "399231", "{\n}", "13K483", "87%", "89%", "82%", "7.3", "84%", "91%", "83%", "7", "83%", "80%", "63%", "7.3", "Well Developed", "2012-13" ]
+, [ 232, "3488BA82-F693-4AAF-8296-D4A27594D030", 232, 1414617491, "399231", 1414617491, "399231", "{\n}", "13K499", "72%", "71%", "43%", "7.5", "70%", "72%", "39%", "7.2", "73%", "67%", "45%", "7.2", "Well Developed", "2009-10" ]
+, [ 233, "747F49E0-DCE1-42BC-86FC-7A6EAF30E09C", 233, 1414617491, "399231", 1414617491, "399231", "{\n}", "13K527", "72%", "78%", "N/A", "7.5", "81%", "N/A", "N/A", "6.8", "82%", "79%", "N/A", "7.3", "Proficient", "2012-13" ]
+, [ 234, "F41157E4-F2B8-4ED8-AC91-F21015547075", 234, 1414617491, "399231", 1414617491, "399231", "{\n}", "13K595", "99%", "95%", "82%", "8", "99%", "97%", "76%", "7.2", "91%", "90%", "75%", "7.6", "Well Developed", "2008-09" ]
+, [ 235, "0B8CDDF9-55B5-4624-BEF6-507B85DA8C8C", 235, 1414617491, "399231", 1414617491, "399231", "{\n}", "13K605", "75%", "67%", "33%", "6.8", "74%", "62%", "47%", "5.8", "76%", "71%", "48%", "7.1", "Proficient", "2012-13" ]
+, [ 236, "FE0CCAF3-20E5-4E97-91E0-71258F07AA3F", 236, 1414617491, "399231", 1414617491, "399231", "{\n}", "13K670", "91%", "95%", "76%", "7", "89%", "94%", "72%", "6.5", "93%", "93%", "79%", "7.6", "Proficient", "2010-11" ]
+, [ 237, "5A4254EA-1AF4-4C06-992E-CD4101C1EC47", 237, 1414617491, "399231", 1414617491, "399231", "{\n}", "13K674", "89%", "83%", "N/A", "7.5", "84%", "N/A", "N/A", "6.8", "81%", "76%", "N/A", "7.4", "Proficient", "2011-12" ]
+, [ 238, "D9BD0FB3-1908-454B-B7A9-6932D9CB20A1", 238, 1414617491, "399231", 1414617491, "399231", "{\n}", "14K071", "68%", "48%", "30%", "7.7", "54%", "46%", "36%", "6.6", "66%", "56%", "32%", "7.2", "Developing", "2012-13" ]
+, [ 239, "4A3F3160-9ED5-4F82-B06C-C611E3CC7F05", 239, 1414617491, "399231", 1414617491, "399231", "{\n}", "14K322", "48%", "20%", "6%", "6.4", "47%", "26%", "25%", "6.1", "62%", "52%", "32%", "7.1", "Developing", "2012-13" ]
+, [ 240, "6FC94403-AC6D-4272-AA29-42C946D084AE", 240, 1414617491, "399231", 1414617491, "399231", "{\n}", "14K449", "95%", "100%", "87%", "7.9", "98%", "99%", "86%", "7.6", "96%", "96%", "87%", "7.8", "Well Developed", "2011-12" ]
+, [ 241, "1D311037-E863-4291-AE4E-07C833F667D4", 241, 1414617491, "399231", 1414617491, "399231", "{\n}", "14K454", "81%", "49%", "30%", "6.8", "83%", "69%", "42%", "6.5", "72%", "61%", "37%", "7.1", "Proficient", "2012-13" ]
+, [ 242, "FEFADF30-32D2-4378-B07C-D0B11B0CF07F", 242, 1414617491, "399231", 1414617491, "399231", "{\n}", "14K474", "72%", "59%", "44%", "7.5", "70%", "75%", "40%", "6.5", "75%", "67%", "45%", "7", "Proficient", "2009-10" ]
+, [ 243, "4716FC34-9783-4259-B628-B13AE272DFDB", 243, 1414617491, "399231", 1414617491, "399231", "{\n}", "14K477", "55%", "43%", "45%", "6.8", "56%", "69%", "52%", "6.6", "73%", "65%", "45%", "6.9", "Developing", "2012-13" ]
+, [ 244, "E1BCFCBF-5EFE-4C55-B3D6-AC3F925F220C", 244, 1414617491, "399231", 1414617491, "399231", "{\n}", "14K478", "80%", "73%", "50%", "7.2", "83%", "77%", "54%", "6.1", "76%", "69%", "50%", "7.1", "Well Developed", "2007-08" ]
+, [ 245, "72B59236-6FBB-4BE0-844E-EFFABE14F6A6", 245, 1414617491, "399231", 1414617491, "399231", "{\n}", "14K488", "90%", "74%", "54%", "7.1", "90%", "76%", "62%", "6.5", "79%", "72%", "51%", "7.2", "Proficient", "2012-13" ]
+, [ 246, "2D75B51C-64D9-41BD-B471-EBAF3B7CFE3D", 246, 1414617491, "399231", 1414617491, "399231", "{\n}", "14K558", "93%", "90%", "52%", "8.8", "94%", "88%", "48%", "7.2", "78%", "74%", "53%", "7.3", "Proficient", "2008-09" ]
+, [ 247, "AB9A202D-CC97-436F-9E8E-620961BE3A0C", 247, 1414617491, "399231", 1414617491, "399231", "{\n}", "14K561", "93%", "89%", "67%", "8.1", "93%", "91%", "73%", "7.3", "83%", "79%", "61%", "7.3", "Well Developed", "2007-08" ]
+, [ 248, "77CE364C-55E7-41B2-B858-AA52D62CEB07", 248, 1414617491, "399231", 1414617491, "399231", "{\n}", "14K586", "74%", "60%", "35%", "7.3", "73%", "65%", "46%", "6.8", "74%", "65%", "43%", "7.1", "Proficient", "2012-13" ]
+, [ 249, "1F3B03E0-3FC4-4864-8D1D-A8738D8AC544", 249, 1414617491, "399231", 1414617491, "399231", "{\n}", "14K610", "59%", "45%", "38%", "6.9", "59%", "64%", "26%", "6.2", "66%", "57%", "33%", "7.3", "Developing", "2012-13" ]
+, [ 250, "3515C1A6-0FA8-4FA4-9CD7-2159F7DF5AC8", 250, 1414617491, "399231", 1414617491, "399231", "{\n}", "14K614", "86%", "N/A", "N/A", "7.8", "73%", "N/A", "N/A", "7.2", "84%", "N/A", "N/A", "7.4", "Well Developed", "2010-11" ]
+, [ 251, "E3616262-366E-4398-B497-9223D188C612", 251, 1414617491, "399231", 1414617491, "399231", "{\n}", "14K632", "92%", "46%", "31%", "7.6", "95%", "60%", "N/A", "6.6", "62%", "52%", "32%", "7.2", "Proficient", "2009-10" ]
+, [ 252, "89A01934-11EE-4F84-A4AB-6F64F882E07A", 252, 1414617491, "399231", 1414617491, "399231", "{\n}", "14K685", "90%", "78%", "34%", "7.9", "87%", "68%", "36%", "7.3", "72%", "65%", "42%", "7.2", "Well Developed", "2007-08" ]
+, [ 253, "49982B7D-6D54-4478-9A81-5A522B7C987E", 253, 1414617491, "399231", 1414617491, "399231", "{\n}", "15K423", "N/A", "N/A", "N/A", "6.9", "N/A", "N/A", "N/A", "6.6", "N/A", "N/A", "N/A", "8.2", "N/A", "N/A" ]
+, [ 254, "3C11ED2A-AB7F-45F0-938B-E462C8FCF7FD", 254, 1414617491, "399231", 1414617491, "399231", "{\n}", "15K429", "88%", "75%", "54%", "6.9", "84%", "65%", "49%", "6.3", "75%", "68%", "47%", "7.3", "Proficient", "2011-12" ]
+, [ 255, "6E3757AE-1C22-481E-BA8B-9B5E6C967F83", 255, 1414617491, "399231", 1414617491, "399231", "{\n}", "15K448", "80%", "87%", "74%", "7.4", "89%", "82%", "77%", "7.1", "79%", "74%", "54%", "7.3", "Proficient", "2009-10" ]
+, [ 256, "EF1DA016-25C0-420C-8228-5F89408657DC", 256, 1414617491, "399231", 1414617491, "399231", "{\n}", "15K462", "60%", "82%", "53%", "6.6", "81%", "81%", "47%", "6.6", "80%", "74%", "53%", "7.2", "Proficient", "2012-13" ]
+, [ 257, "90285FD8-5DC5-4D2E-A429-AD54A57AC9A8", 257, 1414617491, "399231", 1414617491, "399231", "{\n}", "15K463", "77%", "65%", "42%", "6.6", "67%", "62%", "46%", "6.3", "75%", "70%", "46%", "7.1", "Proficient", "2009-10" ]
+, [ 258, "A1FA8572-F23C-4905-996C-08B7E11070C1", 258, 1414617491, "399231", 1414617491, "399231", "{\n}", "15K464", "80%", "39%", "50%", "6.8", "66%", "63%", "44%", "6.6", "73%", "67%", "44%", "7.1", "Proficient", "2012-13" ]
+, [ 259, "4BE1A6B9-7709-4BCD-B071-0BE202EFD9DC", 259, 1414617491, "399231", 1414617491, "399231", "{\n}", "15K497", "72%", "47%", "52%", "6.9", "75%", "70%", "50%", "6.9", "76%", "68%", "48%", "7", "Proficient", "2008-09" ]
+, [ 260, "262BCF26-887F-434C-8230-38B64814944F", 260, 1414617491, "399231", 1414617491, "399231", "{\n}", "15K519", "83%", "79%", "41%", "7.8", "74%", "72%", "32%", "6", "72%", "64%", "42%", "7.1", "Developing", "2011-12" ]
+, [ 261, "ADF15E21-5D3F-49F7-BBEA-0AA654059068", 261, 1414617491, "399231", 1414617491, "399231", "{\n}", "15K592", "74%", "N/A", "N/A", "8.1", "N/A", "N/A", "N/A", "8", "70%", "N/A", "N/A", "7.1", "Proficient", "2009-10" ]
+, [ 262, "AD3F563D-F1A0-4475-9D03-C46639102DC5", 262, 1414617491, "399231", 1414617491, "399231", "{\n}", "15K656", "83%", "83%", "59%", "6.9", "86%", "78%", "63%", "6.4", "84%", "82%", "64%", "7.5", "Proficient", "2010-11" ]
+, [ 263, "C816C0D2-405D-4FFE-A943-E3EF7CCB73CE", 263, 1414617491, "399231", 1414617491, "399231", "{\n}", "15K667", "93%", "71%", "N/A", "7.7", "90%", "N/A", "N/A", "7.2", "77%", "72%", "N/A", "7.3", "Well Developed", "2011-12" ]
+, [ 264, "B14E4CA4-37F7-4679-9AA0-70B1E800292C", 264, 1414617491, "399231", 1414617491, "399231", "{\n}", "15K684", "99%", "N/A", "N/A", "8.1", "96%", "N/A", "N/A", "7.9", "94%", "N/A", "N/A", "7.6", "N/A", "N/A" ]
+, [ 265, "DF8C1A2E-B827-45F8-AEE2-731ECB1B8F26", 265, 1414617491, "399231", 1414617491, "399231", "{\n}", "16K393", "71%", "78%", "19%", "8", "65%", "51%", "32%", "6.4", "71%", "63%", "39%", "7.2", "Proficient", "2011-12" ]
+, [ 266, "5B7E3B06-C4E6-4814-8F90-9992A269E09A", 266, 1414617491, "399231", 1414617491, "399231", "{\n}", "16K455", "55%", "44%", "19%", "7.6", "48%", "39%", "21%", "6.9", "69%", "57%", "34%", "7.1", "Developing", "2012-13" ]
+, [ 267, "CC18551E-4585-41EE-A5FA-BEA0C3818C1A", 267, 1414617491, "399231", 1414617491, "399231", "{\n}", "16K498", "91%", "59%", "41%", "7.6", "84%", "72%", "41%", "6.4", "73%", "66%", "43%", "7.2", "Proficient", "2010-11" ]
+, [ 268, "52821BF0-E6CF-4E8E-AFD6-578552120B8E", 268, 1414617491, "399231", 1414617491, "399231", "{\n}", "16K594", "82%", "66%", "31%", "7.7", "82%", "62%", "33%", "7", "73%", "66%", "44%", "7.2", "Developing", "2011-12" ]
+, [ 269, "14CDFF85-8A12-4968-A227-D25F83B8334F", 269, 1414617491, "399231", 1414617491, "399231", "{\n}", "16K688", "52%", "55%", "N/A", "6.9", "59%", "N/A", "N/A", "4.8", "66%", "55%", "N/A", "7.2", "Developing", "2011-12" ]
+, [ 270, "794755E8-88EB-4989-A92F-8F14CA53E6AB", 270, 1414617491, "399231", 1414617491, "399231", "{\n}", "16K765", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 271, "E72FE675-C411-42B3-A9D7-D00C2F362E0D", 271, 1414617491, "399231", 1414617491, "399231", "{\n}", "17K122", "85%", "N/A", "N/A", "7.9", "96%", "N/A", "N/A", "7.2", "80%", "N/A", "N/A", "7.2", "N/A", "N/A" ]
+, [ 272, "C60C2985-92C6-424C-B54D-AA6B7850C350", 272, 1414617491, "399231", 1414617491, "399231", "{\n}", "17K382", "78%", "71%", "53%", "6.6", "73%", "72%", "41%", "5.8", "72%", "65%", "45%", "6.9", "Developing", "2011-12" ]
+, [ 273, "37218A6F-8177-4EB8-8710-40C304C0866B", 273, 1414617491, "399231", 1414617491, "399231", "{\n}", "17K408", "64%", "46%", "42%", "6.8", "83%", "61%", "54%", "6.3", "71%", "61%", "39%", "7", "Developing", "2012-13" ]
+, [ 274, "BFFA403B-7C55-4F27-92DC-C9E19B67524A", 274, 1414617491, "399231", 1414617491, "399231", "{\n}", "17K524", "83%", "66%", "43%", "8", "96%", "57%", "43%", "7.5", "79%", "65%", "44%", "7.6", "Proficient", "2011-12" ]
+, [ 275, "230A7E44-7FC5-499D-876E-D2F9EBE5613E", 275, 1414617491, "399231", 1414617491, "399231", "{\n}", "17K528", "83%", "57%", "52%", "7.1", "67%", "77%", "32%", "6.7", "70%", "59%", "38%", "7", "Proficient", "2012-13" ]
+, [ 276, "CAA22463-8144-4563-B95D-F92FC0EA7239", 276, 1414617491, "399231", 1414617491, "399231", "{\n}", "17K531", "88%", "70%", "58%", "8", "79%", "85%", "36%", "7.4", "75%", "68%", "47%", "7", "Proficient", "2010-11" ]
+, [ 277, "62F228E5-CF2A-4B4F-B30A-16835C97A76A", 277, 1414617491, "399231", 1414617491, "399231", "{\n}", "17K533", "85%", "54%", "44%", "6.5", "76%", "68%", "42%", "6.3", "71%", "60%", "36%", "7.2", "Developing", "2012-13" ]
+, [ 278, "568C07D9-F2EB-4B4A-8D53-FC98A1BC89C4", 278, 1414617491, "399231", 1414617491, "399231", "{\n}", "17K537", "83%", "68%", "51%", "6.9", "89%", "70%", "32%", "6", "69%", "57%", "35%", "7.1", "Developing", "2011-12" ]
+, [ 279, "E88D3AD1-A36F-49D3-A040-4D094B9E4D77", 279, 1414617491, "399231", 1414617491, "399231", "{\n}", "17K539", "86%", "71%", "38%", "6.6", "83%", "75%", "44%", "6.2", "72%", "62%", "40%", "7", "Well Developed", "2007-08" ]
+, [ 280, "CD33504E-C13E-428E-854D-0F135E558762", 280, 1414617491, "399231", 1414617491, "399231", "{\n}", "17K543", "95%", "96%", "97%", "7.5", "93%", "99%", "84%", "7.2", "91%", "90%", "76%", "7.6", "Well Developed", "2010-11" ]
+, [ 281, "544FD247-4275-4B95-BE2E-AAD09FE2A464", 281, 1414617491, "399231", 1414617491, "399231", "{\n}", "17K546", "93%", "94%", "81%", "7.9", "96%", "96%", "82%", "7.4", "87%", "86%", "70%", "7.5", "Well Developed", "2007-08" ]
+, [ 282, "F0946C43-84D0-40C4-B9EF-D56CD28B5E2C", 282, 1414617491, "399231", 1414617491, "399231", "{\n}", "17K547", "87%", "64%", "42%", "6.9", "80%", "69%", "47%", "6.4", "77%", "69%", "49%", "7.1", "Proficient", "2012-13" ]
+, [ 283, "DAAE3B5A-F7BC-4C78-8D41-6AA29DC67CDC", 283, 1414617491, "399231", 1414617491, "399231", "{\n}", "17K548", "85%", "68%", "40%", "6.8", "86%", "74%", "36%", "6.5", "80%", "75%", "54%", "7.2", "Proficient", "2009-10" ]
+, [ 284, "A84E8803-D78C-48E8-BCDB-476C933ACA95", 284, 1414617491, "399231", 1414617491, "399231", "{\n}", "17K590", "92%", "96%", "84%", "7.7", "95%", "99%", "76%", "6.2", "94%", "94%", "80%", "7.6", "Proficient", "2012-13" ]
+, [ 285, "A9236C20-597F-4AC1-97D2-00BA632F7D33", 285, 1414617491, "399231", 1414617491, "399231", "{\n}", "17K600", "69%", "72%", "58%", "6.5", "66%", "73%", "55%", "6", "78%", "71%", "52%", "7", "Developing", "2012-13" ]
+, [ 286, "D741A64F-4F8C-4770-B0EF-2BBBB941C726", 286, 1414617491, "399231", 1414617491, "399231", "{\n}", "17K745", "89%", "N/A", "N/A", "7.8", "N/A", "N/A", "N/A", "N/A", "76%", "N/A", "N/A", "7", "N/A", "N/A" ]
+, [ 287, "0D8D165C-5B3C-4DF3-9B62-526362E5C07C", 287, 1414617491, "399231", 1414617491, "399231", "{\n}", "17K751", "70%", "N/A", "N/A", "6.6", "82%", "N/A", "N/A", "6.6", "72%", "N/A", "N/A", "6.9", "Developing", "2012-13" ]
+, [ 288, "6557B2B0-1EC5-431A-BE8F-95462C58A868", 288, 1414617491, "399231", 1414617491, "399231", "{\n}", "18K563", "93%", "89%", "79%", "7.2", "93%", "86%", "88%", "6.5", "72%", "62%", "41%", "7", "Well Developed", "2011-12" ]
+, [ 289, "C1F2E2D8-FCD1-4205-BF06-074EBBA5B904", 289, 1414617491, "399231", 1414617491, "399231", "{\n}", "18K566", "73%", "51%", "47%", "7.3", "76%", "54%", "35%", "6.4", "72%", "61%", "39%", "7.1", "Proficient", "2011-12" ]
+, [ 290, "1CBFA2E5-5FC9-41FB-9D4F-943847726750", 290, 1414617491, "399231", 1414617491, "399231", "{\n}", "18K567", "71%", "63%", "45%", "7.2", "72%", "65%", "40%", "6.2", "73%", "65%", "42%", "7.1", "Proficient", "2009-10" ]
+, [ 291, "7271611A-207C-43B8-B823-758DA4DB3A94", 291, 1414617491, "399231", 1414617491, "399231", "{\n}", "18K569", "80%", "72%", "53%", "7.8", "91%", "77%", "53%", "7.2", "73%", "63%", "41%", "7.1", "Proficient", "2011-12" ]
+, [ 292, "78549D6D-CB10-4DCB-9E71-5E46CCDEC655", 292, 1414617491, "399231", 1414617491, "399231", "{\n}", "18K576", "86%", "87%", "54%", "7.6", "87%", "90%", "43%", "7", "74%", "66%", "45%", "7.1", "Well Developed", "2011-12" ]
+, [ 293, "B6F33DAB-532F-4D03-A72D-67E1A2499BF8", 293, 1414617491, "399231", 1414617491, "399231", "{\n}", "18K589", "84%", "45%", "45%", "8", "73%", "70%", "40%", "6.5", "74%", "66%", "45%", "7", "Proficient", "2012-13" ]
+, [ 294, "EED12D0C-0A5C-4D0D-90A8-89FE9953E7B8", 294, 1414617491, "399231", 1414617491, "399231", "{\n}", "18K617", "66%", "68%", "45%", "7.5", "91%", "63%", "N/A", "6.7", "73%", "65%", "43%", "7.2", "Proficient", "2009-10" ]
+, [ 295, "0CF241E6-740E-487F-AA2C-C55D72162BC3", 295, 1414617491, "399231", 1414617491, "399231", "{\n}", "18K629", "69%", "65%", "39%", "7.1", "87%", "72%", "N/A", "6.8", "69%", "59%", "36%", "7.1", "Developing", "2012-13" ]
+, [ 296, "F7AF0062-709C-4217-8051-DA52FB825133", 296, 1414617491, "399231", 1414617491, "399231", "{\n}", "18K633", "96%", "93%", "68%", "7.1", "92%", "94%", "N/A", "6.5", "81%", "76%", "58%", "7.3", "Well Developed", "2012-13" ]
+, [ 297, "D0509D19-3B1C-4BA2-90C0-8BD1F2C2B03E", 297, 1414617491, "399231", 1414617491, "399231", "{\n}", "18K637", "86%", "61%", "41%", "6.9", "80%", "56%", "N/A", "6.2", "72%", "64%", "42%", "7", "Underdeveloped with Proficient Features", "2009-10" ]
+, [ 298, "DC460157-9D95-4D63-B05E-3082F8CD3A9D", 298, 1414617491, "399231", 1414617491, "399231", "{\n}", "18K642", "77%", "68%", "27%", "7.2", "76%", "61%", "N/A", "6.6", "70%", "61%", "37%", "7", "Proficient", "2012-13" ]
+, [ 299, "2FB569A6-6DB1-4C71-A302-B432F37E29AF", 299, 1414617491, "399231", 1414617491, "399231", "{\n}", "19K404", "84%", "65%", "49%", "7.4", "66%", "71%", "59%", "7", "78%", "70%", "48%", "7", "Well Developed", "2011-12" ]
+, [ 300, "EEB2B984-F244-4231-927C-6F3D7F388AA7", 300, 1414617491, "399231", 1414617491, "399231", "{\n}", "19K409", "86%", "87%", "62%", "7", "90%", "80%", "52%", "6.9", "88%", "86%", "69%", "7.5", "Proficient", "2009-10" ]
+, [ 301, "E947AD0F-1CD2-4370-8DC2-82ECC5C8F772", 301, 1414617491, "399231", 1414617491, "399231", "{\n}", "19K422", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 302, "727F95AA-93C8-4984-A82D-BD3E20875351", 302, 1414617491, "399231", 1414617491, "399231", "{\n}", "19K502", "83%", "65%", "15%", "7.6", "72%", "77%", "9%", "6.8", "70%", "60%", "36%", "7.2", "Proficient", "2012-13" ]
+, [ 303, "D7D982E6-63B9-4D2B-888D-2C8839368D3B", 303, 1414617491, "399231", 1414617491, "399231", "{\n}", "19K504", "84%", "57%", "24%", "7.4", "55%", "62%", "29%", "6.8", "69%", "56%", "34%", "7", "Proficient", "2010-11" ]
+, [ 304, "BDAB9724-BDE2-4C11-8C06-E5D26F084ED2", 304, 1414617491, "399231", 1414617491, "399231", "{\n}", "19K507", "85%", "70%", "37%", "7.3", "82%", "63%", "38%", "6.6", "74%", "68%", "45%", "7.1", "Proficient", "2012-13" ]
+, [ 305, "9FBBDCE7-962A-44F8-A9B2-3EF45ED9D2DF", 305, 1414617491, "399231", 1414617491, "399231", "{\n}", "19K510", "82%", "65%", "47%", "6.5", "72%", "65%", "43%", "5.9", "73%", "62%", "40%", "7", "Developing", "2012-13" ]
+, [ 306, "A87066BE-B7E0-4E4F-ACBB-61CCEA228EAA", 306, 1414617491, "399231", 1414617491, "399231", "{\n}", "19K583", "81%", "29%", "25%", "7.5", "72%", "35%", "23%", "6.8", "80%", "64%", "44%", "7.6", "Proficient", "2012-13" ]
+, [ 307, "AE964769-8241-425C-A8BD-95C7AE363A72", 307, 1414617491, "399231", 1414617491, "399231", "{\n}", "19K615", "53%", "67%", "42%", "6", "62%", "71%", "49%", "5.7", "76%", "70%", "46%", "7.2", "Proficient", "2009-10" ]
+, [ 308, "77820F65-0B0E-42A4-A060-D37ACE8A40DF", 308, 1414617491, "399231", 1414617491, "399231", "{\n}", "19K618", "90%", "53%", "53%", "7.5", "85%", "64%", "N/A", "6.7", "72%", "64%", "41%", "7.1", "Proficient", "2009-10" ]
+, [ 309, "987919E2-A4DB-4A1E-9CD1-3E8D958D903D", 309, 1414617491, "399231", 1414617491, "399231", "{\n}", "19K639", "70%", "50%", "30%", "6.9", "66%", "52%", "N/A", "6.5", "69%", "58%", "35%", "7.1", "Proficient", "2012-13" ]
+, [ 310, "21757496-5750-4EE0-8964-3CFC33EED11C", 310, 1414617491, "399231", 1414617491, "399231", "{\n}", "19K659", "77%", "47%", "34%", "7.3", "72%", "51%", "36%", "7.1", "74%", "65%", "44%", "7", "Developing", "2012-13" ]
+, [ 311, "92CC4093-5A01-4120-ADA8-AE7D23AB610B", 311, 1414617491, "399231", 1414617491, "399231", "{\n}", "19K660", "78%", "65%", "30%", "7.1", "60%", "67%", "25%", "6.8", "62%", "51%", "31%", "7.1", "Developing", "2011-12" ]
+, [ 312, "4ADD3A6E-3905-4BF7-9DD2-D15FB7AFCB4A", 312, 1414617491, "399231", 1414617491, "399231", "{\n}", "19K683", "85%", "83%", "48%", "7.4", "89%", "85%", "N/A", "7", "71%", "63%", "41%", "7", "Well Developed", "2011-12" ]
+, [ 313, "2F38F811-86CE-4147-8242-E2F0FF8629CA", 313, 1414617491, "399231", 1414617491, "399231", "{\n}", "19K764", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 314, "A823B886-3448-4D9A-991B-A25384B6A7EF", 314, 1414617491, "399231", 1414617491, "399231", "{\n}", "20K445", "77%", "68%", "60%", "7.1", "80%", "73%", "57%", "6.4", "76%", "68%", "47%", "7.1", "Well Developed", "2009-10" ]
+, [ 315, "CC1B6B37-26A0-4F5F-8102-D72277A59196", 315, 1414617491, "399231", 1414617491, "399231", "{\n}", "20K485", "91%", "83%", "79%", "7.5", "90%", "86%", "72%", "7.1", "82%", "78%", "62%", "7.5", "Outstanding", "2007-08" ]
+, [ 316, "34CD21AE-0717-4C1D-93C3-D001FE70E39D", 316, 1414617491, "399231", 1414617491, "399231", "{\n}", "20K490", "81%", "70%", "58%", "7.1", "81%", "66%", "55%", "6.8", "80%", "76%", "60%", "7.3", "Well Developed", "2009-10" ]
+, [ 317, "267E2489-1035-4CAA-875C-C132B9A3D935", 317, 1414617491, "399231", 1414617491, "399231", "{\n}", "20K505", "70%", "60%", "49%", "7.1", "81%", "64%", "47%", "6.7", "75%", "66%", "46%", "7.1", "Proficient", "2011-12" ]
+, [ 318, "F3114F51-3FC2-410D-8756-17E6F33EEA77", 318, 1414617491, "399231", 1414617491, "399231", "{\n}", "20K609", "83%", "N/A", "N/A", "8.3", "69%", "N/A", "N/A", "7.5", "79%", "N/A", "N/A", "7.2", "Developing", "2011-12" ]
+, [ 319, "A54B768E-137F-4B76-B895-ADC9F7331727", 319, 1414617491, "399231", 1414617491, "399231", "{\n}", "21K337", "81%", "50%", "41%", "7.9", "94%", "48%", "48%", "7.5", "80%", "66%", "46%", "7.7", "Developing", "2011-12" ]
+, [ 320, "E9C350A2-CF42-47BB-88A4-A61D9EB93DF9", 320, 1414617491, "399231", 1414617491, "399231", "{\n}", "21K344", "81%", "78%", "52%", "6.9", "86%", "62%", "55%", "6.5", "80%", "75%", "54%", "7.2", "Proficient", "2009-10" ]
+, [ 321, "2BFE19A9-6EEA-4064-93BB-E317B55BB466", 321, 1414617491, "399231", 1414617491, "399231", "{\n}", "21K348", "79%", "74%", "57%", "7.5", "73%", "70%", "59%", "6.3", "75%", "69%", "48%", "7.1", "Developing", "2012-13" ]
+, [ 322, "BDE43094-EF41-4F1E-96FC-C2E244653ADD", 322, 1414617491, "399231", 1414617491, "399231", "{\n}", "21K410", "76%", "67%", "55%", "7.5", "78%", "71%", "48%", "7.1", "76%", "68%", "49%", "7", "Proficient", "2012-13" ]
+, [ 323, "3DF713F7-1425-4AB4-90E7-322CA30308CF", 323, 1414617491, "399231", 1414617491, "399231", "{\n}", "21K468", "96%", "91%", "N/A", "7", "88%", "N/A", "N/A", "6.6", "89%", "87%", "N/A", "7.5", "Well Developed", "2010-11" ]
+, [ 324, "699D4922-AC62-459B-9A75-68F228879FB0", 324, 1414617491, "399231", 1414617491, "399231", "{\n}", "21K525", "80%", "78%", "76%", "7.1", "81%", "80%", "72%", "6.7", "85%", "82%", "68%", "7.5", "Well Developed", "2009-10" ]
+, [ 325, "502B7733-B00F-4D1F-A5F1-3F5507EB1B17", 325, 1414617491, "399231", 1414617491, "399231", "{\n}", "21K540", "84%", "74%", "57%", "7.2", "78%", "72%", "54%", "7.1", "79%", "73%", "55%", "7.2", "Proficient", "2012-13" ]
+, [ 326, "D2550F4B-3085-44FF-95A6-C78CCF02436F", 326, 1414617491, "399231", 1414617491, "399231", "{\n}", "21K559", "85%", "91%", "49%", "7", "82%", "77%", "43%", "6.2", "75%", "69%", "47%", "7", "Proficient", "2012-13" ]
+, [ 327, "1FD0FECD-B4D4-4CB1-80FC-12AD9527743A", 327, 1414617491, "399231", 1414617491, "399231", "{\n}", "21K572", "92%", "75%", "56%", "8.1", "92%", "56%", "44%", "7.1", "75%", "68%", "48%", "7.1", "Proficient", "2012-13" ]
+, [ 328, "C99F698B-B056-4D73-8C5F-93CCB96651BF", 328, 1414617491, "399231", 1414617491, "399231", "{\n}", "21K620", "54%", "61%", "38%", "7.2", "63%", "65%", "34%", "6.5", "70%", "62%", "37%", "7.1", "Proficient", "2012-13" ]
+, [ 329, "0A97CFD2-EC8A-43FF-99AC-39E8939EFD5B", 329, 1414617491, "399231", 1414617491, "399231", "{\n}", "21K690", "78%", "76%", "61%", "7", "85%", "74%", "60%", "6.6", "84%", "80%", "64%", "7.5", "Proficient", "2009-10" ]
+, [ 330, "5C9DDE3C-447A-460F-90B2-358574BF99A7", 330, 1414617491, "399231", 1414617491, "399231", "{\n}", "22K405", "92%", "85%", "74%", "7.7", "89%", "87%", "82%", "7.3", "93%", "92%", "78%", "7.6", "Well Developed", "2009-10" ]
+, [ 331, "C8E386EB-454B-4BD1-A18C-555F698FF9B5", 331, 1414617491, "399231", 1414617491, "399231", "{\n}", "22K425", "80%", "75%", "60%", "6.9", "78%", "71%", "57%", "6.4", "83%", "81%", "66%", "7.4", "Well Developed", "2009-10" ]
+, [ 332, "81A9CAB4-D855-4FC9-9110-B105AAF706BF", 332, 1414617491, "399231", 1414617491, "399231", "{\n}", "22K535", "96%", "96%", "87%", "7.8", "98%", "99%", "89%", "7.4", "95%", "95%", "84%", "7.7", "Well Developed", "2007-08" ]
+, [ 333, "29F69C64-05BF-4E63-849C-BD3B5FE0C1C3", 333, 1414617491, "399231", 1414617491, "399231", "{\n}", "22K555", "97%", "97%", "92%", "7.8", "99%", "95%", "89%", "7.2", "94%", "93%", "80%", "7.6", "Proficient", "2009-10" ]
+, [ 334, "78676B1C-2AE3-448D-93A0-F914AD118619", 334, 1414617491, "399231", 1414617491, "399231", "{\n}", "22K611", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 335, "314D66AC-F73E-42BB-A081-7AD8428EC7FC", 335, 1414617491, "399231", 1414617491, "399231", "{\n}", "23K493", "66%", "55%", "49%", "6.3", "79%", "71%", "46%", "6.2", "72%", "66%", "43%", "7.1", "Proficient", "2010-11" ]
+, [ 336, "85CA7AFA-8523-4E23-BAA8-745C4D81DEA5", 336, 1414617491, "399231", 1414617491, "399231", "{\n}", "23K514", "68%", "59%", "46%", "6.6", "63%", "63%", "42%", "6.3", "73%", "65%", "41%", "7.1", "Proficient", "2009-10" ]
+, [ 337, "9FB4C593-BB32-4A61-BF3D-6F6C4CB53292", 337, 1414617491, "399231", 1414617491, "399231", "{\n}", "23K644", "57%", "N/A", "N/A", "8.1", "60%", "N/A", "N/A", "8.2", "74%", "N/A", "N/A", "7", "Proficient", "2012-13" ]
+, [ 338, "96525B2C-D674-4D56-8865-079465566B38", 338, 1414617491, "399231", 1414617491, "399231", "{\n}", "23K697", "63%", "73%", "55%", "6.7", "78%", "82%", "40%", "6.7", "75%", "69%", "46%", "7", "Developing", "2012-13" ]
+, [ 339, "801F3C33-2097-47F1-B769-B2FF7CD1E673", 339, 1414617491, "399231", 1414617491, "399231", "{\n}", "24Q236", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 340, "A074AA76-BA00-4012-9F5F-C2093B2646B1", 340, 1414617491, "399231", 1414617491, "399231", "{\n}", "24Q264", "94%", "90%", "83%", "7.9", "97%", "96%", "75%", "7.2", "86%", "84%", "69%", "7.5", "Well Developed", "2008-09" ]
+, [ 341, "01CAD94F-BA5E-4A9D-AD17-69BAF4470E88", 341, 1414617491, "399231", 1414617491, "399231", "{\n}", "24Q267", "89%", "80%", "60%", "7.3", "83%", "76%", "53%", "6.7", "80%", "74%", "54%", "7.3", "Proficient", "2009-10" ]
+, [ 342, "784F34CF-02BD-42D0-8C69-180F77716586", 342, 1414617491, "399231", 1414617491, "399231", "{\n}", "24Q293", "93%", "85%", "59%", "8.2", "89%", "79%", "N/A", "7.5", "81%", "76%", "57%", "7.4", "Proficient", "2009-10" ]
+, [ 343, "38B9132C-112E-4B13-964E-71EE26C93BFD", 343, 1414617491, "399231", 1414617491, "399231", "{\n}", "24Q296", "65%", "42%", "33%", "7.8", "82%", "48%", "26%", "7.1", "79%", "66%", "44%", "7.6", "Developing", "2012-13" ]
+, [ 344, "03369FF2-FA11-44FC-A349-74F88EB604CD", 344, 1414617491, "399231", 1414617491, "399231", "{\n}", "24Q299", "99%", "96%", "99%", "8.5", "100%", "100%", "93%", "7.8", "97%", "97%", "89%", "7.8", "Proficient", "2009-10" ]
+, [ 345, "B9D484DD-F988-4896-9513-B6D411F7A444", 345, 1414617491, "399231", 1414617491, "399231", "{\n}", "24Q455", "82%", "61%", "49%", "7.6", "73%", "68%", "40%", "6.8", "73%", "66%", "45%", "6.9", "Developing", "2012-13" ]
+, [ 346, "EFEED898-8CDF-42D0-A6B1-AB87DC4711F9", 346, 1414617491, "399231", 1414617491, "399231", "{\n}", "24Q485", "70%", "60%", "37%", "7.1", "83%", "58%", "32%", "7.4", "76%", "69%", "48%", "6.9", "Proficient", "2011-12" ]
+, [ 347, "5F30B213-F39C-4376-A9FF-50BBE4407A5B", 347, 1414617491, "399231", 1414617491, "399231", "{\n}", "24Q520", "83%", "74%", "69%", "7.8", "76%", "76%", "55%", "7.1", "82%", "76%", "57%", "7.3", "Proficient", "2009-10" ]
+, [ 348, "7CD3982C-F4B2-4433-A9EE-CB42CA37B81D", 348, 1414617491, "399231", 1414617491, "399231", "{\n}", "24Q530", "95%", "70%", "60%", "8.3", "94%", "74%", "57%", "7.7", "81%", "68%", "48%", "7.6", "Well Developed", "2007-08" ]
+, [ 349, "F104204B-CCCC-4A66-B7D9-383C3CAF4CEC", 349, 1414617491, "399231", 1414617491, "399231", "{\n}", "24Q550", "90%", "83%", "63%", "7.6", "92%", "83%", "52%", "6.8", "82%", "77%", "58%", "7.4", "Well Developed", "2010-11" ]
+, [ 350, "7E096E39-7F4D-4916-9A1A-A2D0F90806D9", 350, 1414617491, "399231", 1414617491, "399231", "{\n}", "24Q560", "91%", "86%", "68%", "7.8", "84%", "81%", "68%", "7.5", "86%", "83%", "68%", "7.5", "Developing", "2012-13" ]
+, [ 351, "4C05819D-1C9E-470E-B4BC-C9591E7630AA", 351, 1414617491, "399231", 1414617491, "399231", "{\n}", "24Q585", "99%", "N/A", "N/A", "7.4", "98%", "N/A", "N/A", "7", "88%", "N/A", "N/A", "7.5", "N/A", "N/A" ]
+, [ 352, "21F835F6-4504-471D-A314-58BB6382CE6B", 352, 1414617491, "399231", 1414617491, "399231", "{\n}", "24Q600", "87%", "80%", "55%", "7", "84%", "75%", "53%", "6.6", "85%", "81%", "66%", "7.5", "Well Developed", "2011-12" ]
+, [ 353, "CA0CB5AA-46F3-409A-AD35-D0E84742EA35", 353, 1414617491, "399231", 1414617491, "399231", "{\n}", "24Q610", "96%", "88%", "80%", "7.3", "95%", "89%", "57%", "6.8", "90%", "89%", "74%", "7.6", "Well Developed", "2009-10" ]
+, [ 354, "EFC37A27-8F5C-47FA-B66C-A7D71A5F7B79", 354, 1414617491, "399231", 1414617491, "399231", "{\n}", "25Q240", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 355, "DD6802A0-DBA2-4FA2-AC38-B4920DD302AF", 355, 1414617491, "399231", 1414617491, "399231", "{\n}", "25Q241", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 356, "D198F7F6-111A-4418-9889-3061F8162DA5", 356, 1414617491, "399231", 1414617491, "399231", "{\n}", "25Q252", "89%", "92%", "90%", "7.7", "73%", "91%", "N/A", "7.3", "93%", "91%", "78%", "7.6", "Proficient", "2010-11" ]
+, [ 357, "0AA0E9DD-821F-41BB-B246-6C204132BD7C", 357, 1414617491, "399231", 1414617491, "399231", "{\n}", "25Q263", "85%", "70%", "51%", "8", "84%", "60%", "42%", "7.4", "81%", "67%", "47%", "7.7", "Proficient", "2011-12" ]
+, [ 358, "E66C3F78-765D-4F81-8FD6-39D2F50EA087", 358, 1414617491, "399231", 1414617491, "399231", "{\n}", "25Q281", "86%", "92%", "75%", "7.4", "87%", "92%", "75%", "7", "87%", "85%", "70%", "7.5", "Well Developed", "2011-12" ]
+, [ 359, "08E6FE77-9492-4B52-99DA-13B33221CD5E", 359, 1414617491, "399231", 1414617491, "399231", "{\n}", "25Q285", "98%", "91%", "76%", "6.7", "99%", "90%", "82%", "6.7", "87%", "82%", "68%", "7.6", "Well Developed", "2011-12" ]
+, [ 360, "CD8E0ECC-C8F9-4802-9460-70D888F69434", 360, 1414617491, "399231", 1414617491, "399231", "{\n}", "25Q425", "80%", "66%", "47%", "7", "81%", "65%", "43%", "6.5", "76%", "69%", "49%", "7.1", "Proficient", "2012-13" ]
+, [ 361, "8108274D-EC3C-47BA-A620-75A85B181090", 361, 1414617491, "399231", 1414617491, "399231", "{\n}", "25Q460", "68%", "54%", "41%", "6.2", "71%", "59%", "37%", "7.1", "76%", "68%", "48%", "7", "Developing", "2012-13" ]
+, [ 362, "9D885BF3-C60B-414B-95ED-33D3C3847D6A", 362, 1414617491, "399231", 1414617491, "399231", "{\n}", "25Q525", "100%", "100%", "100%", "8", "100%", "100%", "100%", "7.4", "97%", "97%", "89%", "7.8", "Well Developed", "2008-09" ]
+, [ 363, "2F1D0887-0CFE-4878-A387-E603E5F22230", 363, 1414617491, "399231", 1414617491, "399231", "{\n}", "25Q670", "89%", "81%", "75%", "8.2", "78%", "76%", "65%", "7.1", "82%", "77%", "59%", "7.5", "Proficient", "2010-11" ]
+, [ 364, "F8D26660-1CDB-48BB-A6C1-5C119DD92DB7", 364, 1414617491, "399231", 1414617491, "399231", "{\n}", "26Q315", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 365, "E529E82C-63AC-4D49-B6AF-4906BFF2405A", 365, 1414617491, "399231", 1414617491, "399231", "{\n}", "26Q415", "82%", "87%", "73%", "6.6", "88%", "84%", "76%", "6.3", "88%", "85%", "71%", "7.6", "Proficient", "2009-10" ]
+, [ 366, "74F1394A-E4AD-4DF5-8BFC-FB994BE752FB", 366, 1414617491, "399231", 1414617491, "399231", "{\n}", "26Q430", "92%", "86%", "77%", "8.2", "92%", "89%", "79%", "7.5", "87%", "84%", "70%", "7.6", "Proficient", "2011-12" ]
+, [ 367, "244EFA55-897B-4326-BE0F-3D99E4B838FA", 367, 1414617491, "399231", 1414617491, "399231", "{\n}", "26Q435", "76%", "53%", "40%", "6", "72%", "56%", "45%", "5.7", "74%", "66%", "45%", "7", "Developing", "2012-13" ]
+, [ 368, "BA4E3CE9-C903-4570-A64E-B519D99BA727", 368, 1414617491, "399231", 1414617491, "399231", "{\n}", "26Q495", "97%", "92%", "77%", "7.8", "95%", "91%", "73%", "8", "87%", "85%", "70%", "7.6", "Well Developed", "2009-10" ]
+, [ 369, "BB662B76-2323-40D7-AFA2-6A4A26EFE45C", 369, 1414617491, "399231", 1414617491, "399231", "{\n}", "26Q566", "82%", "90%", "74%", "6.9", "89%", "89%", "70%", "6.6", "84%", "81%", "67%", "7.5", "Well Developed", "2012-13" ]
+, [ 370, "F2DCE559-99C9-4F16-8ED3-13FED48D9E0E", 370, 1414617491, "399231", 1414617491, "399231", "{\n}", "27Q260", "79%", "52%", "40%", "6.6", "46%", "70%", "55%", "6.2", "74%", "67%", "45%", "7", "Developing", "2012-13" ]
+, [ 371, "9C28DB8A-358E-4122-B557-308B506BEC17", 371, 1414617491, "399231", 1414617491, "399231", "{\n}", "27Q262", "89%", "86%", "61%", "7.9", "95%", "91%", "72%", "7.6", "83%", "81%", "64%", "7.4", "Proficient", "2011-12" ]
+, [ 372, "2124DED8-1D66-4657-934D-15A53D19B6F8", 372, 1414617491, "399231", 1414617491, "399231", "{\n}", "27Q302", "76%", "61%", "46%", "6.8", "63%", "81%", "N/A", "6.2", "70%", "61%", "38%", "6.9", "Proficient", "2009-10" ]
+, [ 373, "F288DAD5-A759-4BC1-A278-35AB4221F916", 373, 1414617491, "399231", 1414617491, "399231", "{\n}", "27Q308", "91%", "90%", "65%", "7.7", "91%", "85%", "N/A", "7", "83%", "79%", "65%", "7.4", "Proficient", "2009-10" ]
+, [ 374, "30140FF1-2BBB-48E1-806A-87F49F85574B", 374, 1414617491, "399231", 1414617491, "399231", "{\n}", "27Q309", "69%", "65%", "67%", "6.8", "72%", "78%", "N/A", "6.2", "77%", "70%", "49%", "7", "Proficient", "2012-13" ]
+, [ 375, "999512BA-7CD3-4E3B-9820-C4290D085E86", 375, 1414617491, "399231", 1414617491, "399231", "{\n}", "27Q314", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 376, "A392510A-29DE-458F-9313-ABDE1C154536", 376, 1414617491, "399231", 1414617491, "399231", "{\n}", "27Q323", "98%", "100%", "94%", "8.6", "100%", "99%", "97%", "8.1", "97%", "96%", "88%", "7.8", "Well Developed", "2008-09" ]
+, [ 377, "C1FA1079-09EA-4107-920D-FB01E248792C", 377, 1414617491, "399231", 1414617491, "399231", "{\n}", "27Q324", "76%", "N/A", "N/A", "7.4", "73%", "N/A", "N/A", "6.4", "72%", "N/A", "N/A", "7", "Proficient", "2012-13" ]
+, [ 378, "20508680-08EB-4CA2-AB6A-4C3CE0E37C9F", 378, 1414617491, "399231", 1414617491, "399231", "{\n}", "27Q334", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 379, "9D74F8E6-0018-4C73-A71B-CAE01C699AFF", 379, 1414617491, "399231", 1414617491, "399231", "{\n}", "27Q346", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 380, "9AF11D59-DE19-49E6-823F-CB1AA574F55B", 380, 1414617491, "399231", 1414617491, "399231", "{\n}", "27Q351", "70%", "N/A", "N/A", "7.3", "79%", "N/A", "N/A", "7.2", "73%", "N/A", "N/A", "7.2", "N/A", "N/A" ]
+, [ 381, "153ECC09-1073-4829-ABCD-0465974ADE47", 381, 1414617491, "399231", 1414617491, "399231", "{\n}", "27Q400", "31%", "39%", "24%", "6", "57%", "41%", "30%", "6.8", "68%", "56%", "33%", "7.1", "Developing", "2012-13" ]
+, [ 382, "D6224C10-BFA9-4C52-BC3A-BA1686CA3E05", 382, 1414617491, "399231", 1414617491, "399231", "{\n}", "27Q475", "73%", "58%", "39%", "6.6", "81%", "60%", "35%", "6.2", "75%", "69%", "48%", "7", "Developing", "2010-11" ]
+, [ 383, "B1CC9172-9D38-4BE4-9E12-2F5292192592", 383, 1414617491, "399231", 1414617491, "399231", "{\n}", "27Q480", "78%", "52%", "40%", "6.6", "77%", "54%", "39%", "6.5", "73%", "65%", "44%", "7", "Developing", "2012-13" ]
+, [ 384, "10C36D8B-DD56-4858-8D45-4B2FBB45807E", 384, 1414617491, "399231", 1414617491, "399231", "{\n}", "27Q650", "97%", "98%", "82%", "6.9", "96%", "96%", "82%", "6.7", "92%", "91%", "76%", "7.6", "Proficient", "2011-12" ]
+, [ 385, "9636ECEA-F4A5-4F23-B15A-54C9A3C647A0", 385, 1414617491, "399231", 1414617491, "399231", "{\n}", "28Q167", "97%", "N/A", "N/A", "8", "N/A", "N/A", "N/A", "7.7", "89%", "N/A", "N/A", "7.6", "Proficient", "2012-13" ]
+, [ 386, "1E431B82-0B6C-4EED-AE7A-5937E9E4B8A2", 386, 1414617491, "399231", 1414617491, "399231", "{\n}", "28Q284", "92%", "94%", "N/A", "7.6", "80%", "N/A", "N/A", "6.9", "91%", "90%", "N/A", "7.6", "Proficient", "2011-12" ]
+, [ 387, "BA4AE82E-5FBD-43A3-8BE4-7C114FB476C5", 387, 1414617491, "399231", 1414617491, "399231", "{\n}", "28Q310", "93%", "80%", "63%", "7.2", "90%", "81%", "N/A", "7", "81%", "79%", "58%", "7.3", "Well Developed", "2009-10" ]
+, [ 388, "C77F78E9-7DC8-42EF-A00F-1F2C6FAC33F6", 388, 1414617491, "399231", 1414617491, "399231", "{\n}", "28Q325", "90%", "N/A", "N/A", "7.6", "83%", "N/A", "N/A", "6.9", "78%", "N/A", "N/A", "7.2", "Proficient", "2012-13" ]
+, [ 389, "E43BA0F0-43A0-4AEB-B960-69C5EC2ED500", 389, 1414617491, "399231", 1414617491, "399231", "{\n}", "28Q328", "83%", "N/A", "N/A", "7.8", "66%", "N/A", "N/A", "7.1", "75%", "N/A", "N/A", "7", "Proficient", "2012-13" ]
+, [ 390, "91154A03-4E7F-432C-8567-4476953CA5A1", 390, 1414617491, "399231", 1414617491, "399231", "{\n}", "28Q350", "86%", "95%", "80%", "7", "90%", "98%", "N/A", "6.9", "85%", "83%", "67%", "7.5", "N/A", "N/A" ]
+, [ 391, "707EBCAD-42CE-46C5-A625-1B69DEECA999", 391, 1414617491, "399231", 1414617491, "399231", "{\n}", "28Q440", "88%", "86%", "69%", "7.2", "88%", "86%", "66%", "7", "85%", "84%", "70%", "7.5", "Proficient", "2008-09" ]
+, [ 392, "BA0A6C45-C51F-4D5D-8CA1-1AB85AE0BF3B", 392, 1414617491, "399231", 1414617491, "399231", "{\n}", "28Q505", "83%", "72%", "56%", "8.4", "86%", "71%", "55%", "6.9", "79%", "73%", "53%", "7.1", "Proficient", "2009-10" ]
+, [ 393, "D19CB86D-CE21-4354-9D67-3783C2F2CAA0", 393, 1414617491, "399231", 1414617491, "399231", "{\n}", "28Q620", "93%", "84%", "71%", "7.2", "90%", "86%", "69%", "6.8", "86%", "84%", "70%", "7.5", "Well Developed", "2009-10" ]
+, [ 394, "EC4F86D5-953E-4035-AA0D-091ED4684FCF", 394, 1414617491, "399231", 1414617491, "399231", "{\n}", "28Q680", "100%", "97%", "83%", "6.9", "98%", "94%", "90%", "6.7", "95%", "95%", "85%", "7.8", "Proficient", "2009-10" ]
+, [ 395, "BC9299C9-1652-45FC-8FBA-0ACA53D6F3AB", 395, 1414617491, "399231", 1414617491, "399231", "{\n}", "28Q686", "87%", "N/A", "N/A", "7.1", "76%", "N/A", "N/A", "6.2", "84%", "N/A", "N/A", "7.5", "Proficient", "2012-13" ]
+, [ 396, "8348ED11-002D-4C0C-8091-E45A035743A9", 396, 1414617491, "399231", 1414617491, "399231", "{\n}", "28Q687", "100%", "99%", "84%", "8.5", "97%", "98%", "100%", "7", "97%", "97%", "90%", "7.8", "Proficient", "2007-08" ]
+, [ 397, "424EE220-7398-44B4-A3AA-98938E1B7447", 397, 1414617491, "399231", 1414617491, "399231", "{\n}", "28Q690", "65%", "76%", "58%", "6.6", "71%", "71%", "55%", "6.1", "76%", "71%", "50%", "7.2", "Developing", "2012-13" ]
+, [ 398, "08A9302C-7CA5-45AB-ACC3-2371E3B61B72", 398, 1414617491, "399231", 1414617491, "399231", "{\n}", "28Q896", "90%", "87%", "93%", "6.7", "85%", "96%", "81%", "6.3", "85%", "82%", "66%", "7.5", "Underdeveloped", "2012-13" ]
+, [ 399, "1D559DC0-7492-41A6-912A-1D0D3CCC0C89", 399, 1414617491, "399231", 1414617491, "399231", "{\n}", "29Q243", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 400, "C3DA633C-E12C-48DA-8C22-DAED55031EB7", 400, 1414617491, "399231", 1414617491, "399231", "{\n}", "29Q248", "91%", "67%", "36%", "6.4", "86%", "57%", "43%", "6.2", "75%", "67%", "46%", "7", "Proficient", "2008-09" ]
+, [ 401, "4CE0042B-0091-4691-B0CA-5AB90E81E1A6", 401, 1414617491, "399231", 1414617491, "399231", "{\n}", "29Q259", "74%", "75%", "51%", "7.2", "76%", "78%", "59%", "6.3", "78%", "71%", "49%", "7.1", "Developing", "2012-13" ]
+, [ 402, "80770284-E63C-4A2E-91DE-ACCC648B395B", 402, 1414617491, "399231", 1414617491, "399231", "{\n}", "29Q265", "89%", "83%", "46%", "7", "75%", "77%", "42%", "6.3", "77%", "71%", "49%", "7", "Well Developed", "2007-08" ]
+, [ 403, "5D398B6D-DD54-4F01-AAA1-25C7DF5551B9", 403, 1414617491, "399231", 1414617491, "399231", "{\n}", "29Q272", "81%", "80%", "50%", "6.5", "80%", "76%", "42%", "6", "82%", "80%", "60%", "7.4", "Proficient", "2007-08" ]
+, [ 404, "55369B0D-E2F3-413C-BC52-F24FC49801CA", 404, 1414617491, "399231", 1414617491, "399231", "{\n}", "29Q283", "84%", "80%", "62%", "7.2", "85%", "83%", "41%", "6.9", "77%", "70%", "49%", "7", "Proficient", "2009-10" ]
+, [ 405, "218E5200-7FC5-4BBE-ACF1-C5AE881280C7", 405, 1414617491, "399231", 1414617491, "399231", "{\n}", "29Q313", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 406, "E513D62C-33CF-4018-9F3D-5AE71F50296E", 406, 1414617491, "399231", 1414617491, "399231", "{\n}", "29Q326", "92%", "N/A", "N/A", "7.6", "89%", "N/A", "N/A", "7.3", "79%", "N/A", "N/A", "7.2", "Proficient", "2012-13" ]
+, [ 407, "88F6A022-B1BF-40F7-93B9-788B1CB228F2", 407, 1414617491, "399231", 1414617491, "399231", "{\n}", "29Q327", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "Proficient", "2012-13" ]
+, [ 408, "CA8BE416-4241-4AF8-B611-91B87864AD91", 408, 1414617491, "399231", 1414617491, "399231", "{\n}", "29Q492", "87%", "69%", "55%", "6.6", "88%", "77%", "56%", "7.2", "75%", "67%", "48%", "7", "Proficient", "2012-13" ]
+, [ 409, "5D7466B9-57B6-452E-8EE3-8853E83AE5E3", 409, 1414617491, "399231", 1414617491, "399231", "{\n}", "29Q498", "78%", "74%", "51%", "7.1", "83%", "78%", "48%", "6.1", "76%", "71%", "50%", "7.1", "Proficient", "2009-10" ]
+, [ 410, "C1B1E98D-2B02-4119-B9E6-956B69E22B52", 410, 1414617491, "399231", 1414617491, "399231", "{\n}", "30Q258", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A" ]
+, [ 411, "F303334F-FA89-4F72-A39A-8491B16EB292", 411, 1414617491, "399231", 1414617491, "399231", "{\n}", "30Q286", "99%", "95%", "N/A", "8.3", "87%", "N/A", "N/A", "7.7", "90%", "90%", "N/A", "7.6", "Proficient", "2007-08" ]
+, [ 412, "EE75B0B7-71A7-4C21-BFC1-1401373A4E66", 412, 1414617491, "399231", 1414617491, "399231", "{\n}", "30Q301", "99%", "97%", "80%", "8.3", "93%", "96%", "N/A", "7.5", "84%", "79%", "62%", "7.4", "Well Developed", "2009-10" ]
+, [ 413, "C801636C-2E6A-4E94-8506-2E283055E559", 413, 1414617491, "399231", 1414617491, "399231", "{\n}", "30Q445", "83%", "66%", "44%", "6.8", "75%", "63%", "43%", "6.5", "77%", "68%", "49%", "7", "Developing", "2012-13" ]
+, [ 414, "1183D519-19F4-46E3-B6FF-3F817D5FB94F", 414, 1414617491, "399231", 1414617491, "399231", "{\n}", "30Q450", "79%", "59%", "40%", "6.8", "79%", "56%", "43%", "6.3", "77%", "69%", "48%", "7", "Proficient", "2012-13" ]
+, [ 415, "40A82EA0-383C-4EFD-96CB-0627994CF4A6", 415, 1414617491, "399231", 1414617491, "399231", "{\n}", "30Q501", "97%", "94%", "85%", "7.1", "99%", "97%", "88%", "6.8", "96%", "95%", "86%", "7.8", "Well Developed", "2007-08" ]
+, [ 416, "4F551E7B-C956-466F-8444-144C59EDCFF5", 416, 1414617491, "399231", 1414617491, "399231", "{\n}", "30Q502", "78%", "67%", "57%", "6.9", "75%", "74%", "52%", "6.3", "81%", "77%", "59%", "7.4", "Proficient", "2009-10" ]
+, [ 417, "EB20719F-DE4D-4930-9130-18D6DF05DC6E", 417, 1414617491, "399231", 1414617491, "399231", "{\n}", "30Q555", "77%", "70%", "45%", "7.5", "90%", "67%", "44%", "6.8", "80%", "64%", "44%", "7.6", "Well Developed", "2009-10" ]
+, [ 418, "E82EC1E7-E9B4-41A1-A7A3-21EFD8669514", 418, 1414617491, "399231", 1414617491, "399231", "{\n}", "30Q575", "93%", "92%", "87%", "7.7", "89%", "88%", "85%", "7", "90%", "88%", "73%", "7.6", "Proficient", "2009-10" ]
+, [ 419, "625027DE-A6F4-4DE5-9F3A-C45603FDAABA", 419, 1414617491, "399231", 1414617491, "399231", "{\n}", "30Q580", "100%", "98%", "92%", "8.3", "100%", "97%", "92%", "7.8", "97%", "96%", "88%", "7.8", "Proficient", "2009-10" ]
+, [ 420, "6C2CF6AA-A1E2-439F-ABC4-83A9EC268091", 420, 1414617491, "399231", 1414617491, "399231", "{\n}", "31R047", "91%", "97%", "95%", "7.6", "95%", "97%", "82%", "6.9", "86%", "83%", "68%", "7.5", "Proficient", "2008-09" ]
+, [ 421, "BB40F9B1-674C-4AD4-AD7E-0C3307891428", 421, 1414617491, "399231", 1414617491, "399231", "{\n}", "31R064", "89%", "80%", "68%", "7.5", "90%", "84%", "N/A", "6.7", "81%", "76%", "58%", "7.5", "Proficient", "2009-10" ]
+, [ 422, "7082C1BD-6D2F-41BE-92A1-8697BB2A5ABC", 422, 1414617491, "399231", 1414617491, "399231", "{\n}", "31R080", "90%", "92%", "79%", "8", "88%", "90%", "68%", "7", "83%", "79%", "65%", "7.5", "Well Developed", "2012-13" ]
+, [ 423, "9836B0E8-FA32-41DD-A1F4-0EC0CFE53448", 423, 1414617491, "399231", 1414617491, "399231", "{\n}", "31R440", "81%", "73%", "51%", "6.8", "77%", "76%", "53%", "6.6", "79%", "75%", "53%", "7.2", "Well Developed", "2011-12" ]
+, [ 424, "B1838C72-7755-441A-8959-4E3DAE32A0E2", 424, 1414617491, "399231", 1414617491, "399231", "{\n}", "31R445", "70%", "61%", "42%", "6.6", "69%", "63%", "48%", "6.2", "74%", "68%", "44%", "7.1", "Well Developed", "2009-10" ]
+, [ 425, "A8B238CE-4080-4038-8532-A1EF88B569F2", 425, 1414617491, "399231", 1414617491, "399231", "{\n}", "31R450", "78%", "79%", "51%", "6.9", "79%", "74%", "48%", "6.4", "76%", "71%", "49%", "7.1", "Well Developed", "2009-10" ]
+, [ 426, "0BC3522A-F240-4B47-8D00-8A62D31108D9", 426, 1414617491, "399231", 1414617491, "399231", "{\n}", "31R455", "90%", "83%", "66%", "7.8", "87%", "85%", "65%", "7.2", "86%", "83%", "69%", "7.5", "Well Developed", "2011-12" ]
+, [ 427, "AE259C8E-8604-4A8E-B680-9A2BA265FBCF", 427, 1414617491, "399231", 1414617491, "399231", "{\n}", "31R460", "87%", "81%", "69%", "7.4", "85%", "78%", "74%", "6.9", "81%", "77%", "59%", "7.3", "Well Developed", "2009-10" ]
+, [ 428, "7ED5FD93-0FC4-4DFE-82E0-0DC6BACD1499", 428, 1414617491, "399231", 1414617491, "399231", "{\n}", "31R600", "81%", "60%", "44%", "7", "77%", "67%", "46%", "6.8", "73%", "65%", "42%", "7.2", "Well Developed", "2007-08" ]
+, [ 429, "1413B1B8-2017-4353-A8B6-AA2212D3BCE8", 429, 1414617491, "399231", 1414617491, "399231", "{\n}", "31R605", "100%", "100%", "100%", "8.5", "100%", "100%", "90%", "8.1", "97%", "97%", "90%", "7.8", "Proficient", "2007-08" ]
+, [ 430, "7DD96D6E-4A09-4AB5-BCF4-83DE9B3CD278", 430, 1414617491, "399231", 1414617491, "399231", "{\n}", "32K168", "84%", "N/A", "N/A", "7.2", "76%", "N/A", "N/A", "6.9", "74%", "N/A", "N/A", "7.2", "N/A", "N/A" ]
+, [ 431, "8A539978-1315-42DC-8864-CA9BE0BFD00A", 431, 1414617491, "399231", 1414617491, "399231", "{\n}", "32K403", "84%", "75%", "37%", "7.8", "83%", "65%", "34%", "6.9", "71%", "61%", "37%", "7.1", "Proficient", "2009-10" ]
+, [ 432, "A9B1052C-2D5C-4AA1-B3D9-55B08FFF9EDB", 432, 1414617491, "399231", 1414617491, "399231", "{\n}", "32K545", "77%", "70%", "42%", "7.6", "72%", "67%", "47%", "6.8", "75%", "69%", "48%", "7", "Developing", "2012-13" ]
+, [ 433, "F8D8E379-4232-4B56-9E04-4278FDEA1120", 433, 1414617491, "399231", 1414617491, "399231", "{\n}", "32K549", "88%", "55%", "34%", "7.5", "70%", "64%", "33%", "6.6", "74%", "65%", "43%", "7.1", "Proficient", "2009-10" ]
+, [ 434, "363DF904-40B5-466C-9849-9E71D91CE0A4", 434, 1414617491, "399231", 1414617491, "399231", "{\n}", "32K552", "75%", "51%", "28%", "7.1", "61%", "51%", "31%", "6.5", "63%", "52%", "31%", "7.2", "Proficient", "2009-10" ]
+, [ 435, "208286D1-CE94-4DC7-891F-0580FD15F31E", 435, 1414617491, "399231", 1414617491, "399231", "{\n}", "32K554", "97%", "97%", "84%", "9.1", "94%", "97%", "77%", "8.9", "86%", "83%", "68%", "7.5", "Well Developed", "2007-08" ]
+, [ 436, "0DFAC04F-F619-4AE4-A16B-B57D5934222A", 436, 1414617491, "399231", 1414617491, "399231", "{\n}", "32K556", "65%", "70%", "23%", "7.1", "63%", "43%", "25%", "6.4", "73%", "66%", "43%", "7.2", "Proficient", "2009-10" ]
+ ]
+}
